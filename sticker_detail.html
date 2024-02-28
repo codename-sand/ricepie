@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="BYFIsoft">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>365일 답례떡은 역시 떡담!</title>
+	
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/full_menu.css">
+	<link rel="stylesheet" href="css/sticker.css">
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/sticker.js"></script>
+</head>
+
+<body>
+	<div class="top_line auto_mg"></div>
+	<header class="cf">		
+		<div class="top_banner">
+			<ul class="top_banner_slide">
+				<li>
+					<a href="">
+						<img src="images/top_banner1.png" alt="직접담는 DIY 답례떡"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<h1><a href="index.html"><img src="images/logo.png" alt="떡담"/></a></h1>
+		<ul class="top_menu">
+			<li><a href="login.html">로그인</a></li>
+			<li><a href="my.html">마이페이지</a></li>
+			<li><a href="">비회원 주문조회</a></li>
+			<li class="cart"><a href="cart.html">장바구니 <span>(1)</span></a></li>
+		</ul>
+	</header>
+ 
+	<nav>
+		<div class="navWrap auto_mg">
+			<ul class="gnb">
+				<li class="all"><a href=""><span><img src="images/menu_icon.png" alt="전체메뉴"/></span>전체메뉴</a>
+					<!-- full menu -->
+					<div class="full_menu">
+						<div class="menu_line">
+							<h4>포장떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">10kg 잔치떡(한말)</a></li>
+								<li><a href="detail_list.html">5kg 잔치떡(반말)</a></li>
+								<li><a href="detail_list.html">1kg 잔치떡(한되)</a></li>
+								<li><a href="detail_list.html">250g 포장떡</a></li>
+								<li><a href="detail_list.html">200kg 포장떡</a></li>
+								<li><a href="detail_list.html">간식 포장떡</a></li>
+								<li><a href="detail_list.html">미니 포장떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>답례떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 답례떡</a></li>
+								<li><a href="detail_list.html">결혼 답례떡</a></li>
+								<li><a href="detail_list.html">돌/백일 답례떡</a></li>
+								<li><a href="detail_list.html">개업/기업 답례떡</a></li>
+								<li><a href="detail_list.html">첫출근/영전 답례떡</a></li>
+								<li><a href="detail_list.html">생일/회갑/고희 답례떡</a></li>
+								<li><a href="detail_list.html">조문 답례떡</a></li>
+								<li><a href="detail_list.html">팬덤/스타 답례떡</a></li>
+								<li><a href="detail_list.html">유치원/학교 답례떡</a></li>
+								<li><a href="detail_list.html">수상/감사 답례떡</a></li>
+								<li><a href="detail_list.html">응원/합격 답례떡</a></li>
+								<li><a href="detail_list.html">종교/세미나 답례떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>선물세트 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 선물세트</a></li>
+								<li><a href="detail_list.html">추천 선물세트</a></li>
+								<li><a href="detail_list.html">예단떡 (이바지떡)</a></li>
+								<li><a href="detail_list.html">오메기떡 선물세트</a></li>
+								<li><a href="detail_list.html">조청/식혜/약과/다식</a></li>
+							</ul>
+
+							<h4>음료/명절메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">식혜</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>떡케이크 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 떡케이크</a></li>
+								<li><a href="detail_list.html">추천 떡케이크</a></li>
+								<li><a href="detail_list.html">기업행사 떡케이크</a></li>
+								<li><a href="detail_list.html">상차림 케이크세트</a></li>
+								<li><a href="detail_list.html">1단/2단/3단 케이크</a></li>
+							</ul>
+
+							<h4>50년 인기메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">백설기</a></li>
+								<li><a href="detail_list.html">수수팥떡</a></li>
+								<li><a href="detail_list.html">시루떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>오메기떡</h4>
+							<ul>
+								<li><a href="detail_list.html">제주오메기떡</a></li>
+								<li><a href="detail_list.html">카카오오메기떡</a></li>
+								<li><a href="detail_list.html">말차오메기떡</a></li>
+								<li><a href="detail_list.html">수리취오메기떡</a></li>
+								<li><a href="detail_list.html">씨앗오메기떡</a></li>
+								<li><a href="detail_list.html">콩고물오메기떡</a></li>
+								<li><a href="detail_list.html">대추오메기떡</a></li>
+								<li><a href="detail_list.html">호두오메기떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>BEST</h4>
+							<ul>
+								<li><a href="detail_list.html">돌떡/백일떡/수수팥떡</a></li>
+								<li><a href="detail_list.html">유치원간식/생일잔치</a></li>
+								<li><a href="detail_list.html">예단떡/이바지떡</a></li>
+								<li><a href="detail_list.html">떡선물세트</a></li>
+								<li><a href="detail_list.html">개업떡/이사떡/시루떡</a></li>
+								<li><a href="detail_list.html">식사대용/오메기떡</a></li>
+								<li><a href="detail_list.html">케이크/생일/회갑/칠순</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="first">
+					<a href="brand.html">떡담이야기</a>
+					<ul class="subMenu1">
+						<li><a href="brand.html">브랜드 이야기</a></li>
+						<li><a href="history.html">떡담 역사</a></li>
+						<li><a href="store.html">떡담 매장</a></li>
+						<li><a href="start.html">창업 이야기</a></li>
+					</ul>
+				</li>
+				<li class="diy_menu"><a href="diy.html">DIY답례떡</a></li>
+				<li>
+					<a href="sticker.html">무료스티커</a>
+					<ul class="subMenu2">
+						<li><a href="sticker.html">스티커 신청하기</a></li>
+						<li><a href="sticker_sample.html">스티커 샘플보기</a></li>
+						<li><a href="sticker_complete.html">스티커 시안확인</a></li>
+					</ul>
+				</li>
+				<li><a href="review.html">이용후기</a></li>
+				<li>
+					<a href="cs.html">고객센터</a>
+					<ul class="subMenu3">
+						
+						<li><a href="myquestion.html">1:1 문의</a></li>
+						<li><a href="store.html">매장안내</a></li>
+						<li><a href="notice_list.html">공지사항</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="">
+					<input type="text" placeholder="기업행사케이크">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="top_img">
+		<p class="auto_mg">무료 스티커</p>
+	</div>
+
+	<!--depth page-->
+	<div class="auto_mg">
+		<ul class="top_depth cf">
+			<li><a href="sticker.html">무료 스티커</a></li>
+			<li><img src="images/depthpage.png"></li>
+			<li><a href="sticker.html">무료 스티커 신청하기</a></li>
+		</ul>
+	</div>
+
+	<section class="auto_mg">
+		<div class="sticker_detail">
+			<div class="detail_title cf">
+				<h4>디자인 신청해요! #스티커신청합니다 #백일떡</h4>
+				<p>2017-06-02
+				</p>
+			</div>
+			<div class="detail_content">
+				<img src="images/sticker_test.jpg" alt="sticker">
+				<p>14일 임승훈님 스티커 완성</p>
+			</div>
+			<div class="detail_comment cf">
+				<h4>댓글 목록</h4>
+				<form action="" class="cf">
+					<input type="text" placeholder="댓글을 입력해 주세요.">
+					<input type="button" class="black_button" value="등록">
+				</form>
+				<div class="detail_comment_list">
+					<div class="comment_list_info cf">
+						<p>손님</p>
+						<span>2017.06.12. 10:32</span>
+						<div class="reply">
+							<img src="images/reply.jpg" alt="reply">
+							<p>답글</p>
+						</div>
+					</div>
+					<p>수정 요청 가능 한가요? 폰트 사이즈를 키워주세요!</p>
+					<form action="" class="cf">
+						<input type="text" placeholder="댓글을 입력해 주세요.">
+						<input type="button" class="black_button" value="등록">
+					</form>
+				</div>
+				<div class="detail_comment_list">
+					<div class="comment_list_info cf">
+						<p>손님</p>
+						<span>2017.06.12. 10:32</span>
+						<div class="reply">
+							<img src="images/reply.jpg" alt="reply">
+							<p>답글</p>
+						</div>
+					</div>
+					<p>예쁘네요!</p>
+					<form action="" class="cf">
+						<input type="text" placeholder="댓글을 입력해 주세요.">
+						<input type="button" class="black_button" value="등록">
+					</form>
+				</div>
+				<div class="detail_comment_list detail_comment_list_reply">
+					<div class="comment_list_info cf">
+						<p>디자이너</p>
+						<span>2017.06.12. 10:32</span>
+						<div class="reply">
+							<img src="images/reply.jpg" alt="reply">
+							<p>답글</p>
+						</div>
+					</div>
+					<p>감사합니다!</p>
+					<form action="" class="cf">
+						<input type="text" placeholder="댓글을 입력해 주세요.">
+						<input type="button" class="black_button" value="등록">
+					</form>
+				</div>
+				<div class="detail_comment_list">
+					<div class="comment_list_info cf">
+						<p>디자이너</p>
+						<span>2017.06.12. 10:32</span>
+						<div class="reply">
+							<img src="images/reply.jpg" alt="reply">
+							<p>답글</p>
+						</div>
+					</div>
+					<p>수정 완료되면 연락드리겠습니다!</p>
+					<form action="" class="cf">
+						<input type="text" placeholder="댓글을 입력해 주세요.">
+						<input type="button" class="black_button" value="등록">
+					</form>
+				</div>
+				<ul class="return cf">
+					<li class="white_button">
+						<a href="sticker.html">목록</a>
+					</li>
+					<li class="pink_button">
+						<a href="sticker_request.html" style="width: 120px">스티커신청하기</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="footer_banner auto_mg">
+			<ul class="footer_banner_slide">
+				<li><img src="images/ft_banner1.png" alt="농식품부 장관상 수상"></li>
+				<li><img src="images/ft_banner2.png" alt="중소기업청장 표창"></li>
+				<li><img src="images/ft_banner3.png" alt="대한민국 100대 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner4.png" alt="우수 쌀가공제품 TOP 10"></li>
+				<li><img src="images/ft_banner5.png" alt="중소기업청장 지정 우수 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner6.png" alt="쌀가공 품평회 대상"></li>
+				<li><img src="images/ft_banner7.png" alt="2013 경기도지사상 수상"></li>
+				<li><img src="images/ft_banner8.png" alt="2013 HIT 500"></li>
+				<li><img src="images/ft_banner9.png" alt="한국 프랜차이즈 산업협회 정회원사"></li>
+				<li><img src="images/ft_banner10.png" alt="한국 식품산업협회 정회원사"></li>
+				<li><img src="images/ft_banner11.png" alt="한국 외식산업협회 정회원사"></li>
+				<li><img src="images/ft_banner12.png" alt="한국 쌀가공협회 정회원사"></li>
+			</ul>
+		</div>
+		<div class="footer_bt">
+			<div class="auto_mg">
+				<ul class="cf">
+					<li><a href="" target="_blank">이용약관</a></li>
+					<li><a href="" target="_blank">개인정보 취급방침</a></li>
+					<li><a href="" target="_blank">이메일 무단 수집 거부</a></li>
+					<li><a href="" target="_blank">고객센터</a></li>
+				</ul>
+				<address>
+					<strong>(주)라이스파이</strong>
+					<p>경기도 성남시 중원구 사기막골 90번길 14&nbsp;&nbsp;|&nbsp;&nbsp;사업자 등록번호 : 2015-20-90816&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="window.open('http://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=2152090816','','resizable=yes,menubar=no,width=750,height=700')" target="_blank" style="cursor: pointer;">사업자 정보 확인하기</a>&nbsp;&nbsp;|&nbsp;&nbsp;통신판매업 신고번호 : 제2012-경기성남-1378호<br>
+					대표 임철준&nbsp;&nbsp;|&nbsp;&nbsp;개인정보관리 책임자 신희주&nbsp;&nbsp;|&nbsp;&nbsp;대표번호 1644-8222&nbsp;&nbsp;|&nbsp;&nbsp;팩스 031-749-8283&nbsp;&nbsp;|&nbsp;&nbsp;이메일 777fortune@naver.com<br>
+					<span>Copyright © 2017 라이스파이 All Right Reserved.</span></p>
+				</address>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

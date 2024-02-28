@@ -1,0 +1,57 @@
+@charset "utf-8";
+.step_area{margin:60px auto 40px}
+hr{width:1180px;margin:0 auto}
+.order_request > div > h3{color:#ed1262;margin:80px 0 10px;font-weight:600}
+.order_request > div > p{color:#4f4c4d;padding-bottom:40px;border-bottom:1px solid #ccc}
+.order_request > div > p strong{font-weight:600}
+.order_request .order_table th{color:#231f20;font-weight:600;height:60px;vertical-align:middle;border-top:1px solid #a7a5a6;border-bottom:1px solid #a7a5a6;position:relative}
+.order_request .order_table th .check_wrap{position:absolute;left:20px;top:23px}
+.order_request .order_table td{border-left:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;box-sizing:border-box;text-align:center;color:#4f4c4d;height:160px;vertical-align:middle}
+.order_request .order_table tr td:first-child{border-left:0}
+.order_request .order_table td .check_wrap{float:left;margin-left:20px;margin-right:30px;margin-top:33px}
+.order_request .order_table tr td.info_td .img{width:80px;height:80px;border:1px solid #d8d7d7;display:table-cell;vertical-align:middle;margin-right:40px;box-sizing:border-box}
+.order_request .order_table tr td.info_td p{line-height:28px;text-align:left;padding-left:40px;display:table-cell;vertical-align:middle;width:280px;position:relative}
+.order_request .order_table tr td.info_td p img{display:block;position:absolute;top:0}
+.order_request .order_table td .quantity{width:90px;margin:0 auto}
+.order_request .order_table td .quantity input[type=number]{padding-left:20px;font-weight:400;color:#4f4c4d}
+.order_request .order_table td h4{font-weight:600;color:#f14181}
+.order_request .order_table td .button_area input{width:100px;display:block;margin:0 auto}
+.order_request .order_table td .button_area input:nth-child(2){margin-top:10px}
+.order_request .order_table td .button_area input.white_button{color:#4f4c4d!important;border-color:#7b7979!important}
+.order_request .order_table .normal_sub td{background:#f0f0f0;height:60px}
+.order_request .order_table .normal_sub .check_wrap{margin-top:8px}
+.order_request .order_table .normal_sub td.info_td p{color:#a7a5a6;padding-left:122px}
+.order_request .order_table .normal_sub td.info_td p img{position:static;float:left;margin-top:3px;margin-right:20px}
+.order_request .order_table .diy_sub td{background:#f0f0f0}
+.order_request .order_table .diy_sub .info_td{padding-left:63px}
+.order_request > div > div{padding:20px 0;border-bottom:1px solid #ccc}
+.order_request > div > div label{width:150px;float:left;line-height:40px;color:#231f20;font-weight:500}
+.order_request > div > div .input_detail{color:#4f4c4d;clear:both;margin-left:150px;padding-top:20px;line-height:24px}
+.order_request > div > div .input_detail span{color:#ed1262;font-weight:500}
+.three_wrap select{width:180px!important;float:left}
+.three_wrap p.text{float:left;width:23px;line-height:40px;text-align:center}
+.three_wrap input[type="text"]{width:180px;float:left}
+.order_request .address_block{display:block;margin-left:150px;margin-top:10px}
+.order_request .white_button{border-color:#241f20!important;margin-left:-3px}
+.order_request > div > div .radio_wrap{float:left;margin-right:10px;margin-top:12px}
+.order_request > div > div .check_wrap{float:left;margin-right:10px;margin-top:14px}
+.detail_label{color:#231f20!important;font-weight:400!important;float:left;width:130px!important}
+.order_request > div > div textarea{width:932px;height:100px;background:#f0f0f0;border:1px solid #a7a5a6;box-sizing:border-box;padding:20px;color:#4f4c4d;font-size:16px;font-family:inherit}
+.order_request .total_price{margin-top:80px;border-top:2px solid #ed1162}
+.order_request .total_price .price_wrap{background:url(../images/price_sum.jpg) no-repeat center center;border-bottom:2px solid #d1d1d1;padding:25px 0}
+.order_request .total_price .price_wrap > div{width:50%;float:left;text-align:center;padding:0}
+.order_request .total_price .price_wrap > div p{color:#231f20;font-weight:500;margin-bottom:10px}
+.order_request .total_price .price_wrap > div h3 span{font-weight:600;color:#ed1262}
+.order_request .total_price h2{color:#231f20;margin-top:20px;float:right}
+.order_request .total_price h2 span{color:#ed1262}
+.order_request .total_price h2 span.price_number{margin-left:40px}
+.order_request .btn{clear:both;width:380px;margin:30px auto 0}
+.order_request input[value="쇼핑 계속하기"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#f69322;border:0;float:left;cursor:pointer}
+.order_request input[value="구매하기"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#ed1262;border:0;margin-left:20px;float:left;cursor:pointer}
+.order_request input[value="뒤로가기"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#7b7979;border:0;float:left;cursor:pointer}
+.order_request input[value="결제하기"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#ed1262;border:0;margin-left:20px;float:left;cursor:pointer}
+h2.complete{color:#ed1262;font-weight:600;margin-top:60px;text-align:center}
+h4.complete{color:#4f4c4d;text-align:center;margin:10px auto 60px}
+.buttonUl2{width:380px;margin:0 auto}
+.pink_button a{color:#fff;font-size:24px;font-weight:600;text-align:center;width:180px;height:60px;line-height:60px;background:#ed1262;float:left}
+.gray_button a{color:#fff;font-size:24px;font-weight:600;text-align:center;width:180px;height:60px;line-height:60px;background:#7b7979;float:left;margin-left:20px}

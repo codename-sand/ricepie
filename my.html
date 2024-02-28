@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="BYFIsoft">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>365일 답례떡은 역시 떡담!</title>
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/full_menu.css">
+	<link rel="stylesheet" href="css/my.css">
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+
+<body>
+	<div class="top_line auto_mg"></div>
+	<header class="cf">		
+		<div class="top_banner">
+			<ul class="top_banner_slide">
+				<li>
+					<a href="">
+						<img src="images/top_banner1.png" alt="직접담는 DIY 답례떡"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<h1><a href="index.html"><img src="images/logo.png" alt="떡담"/></a></h1>
+		<ul class="top_menu">
+			<li><a href="login.html">로그인</a></li>
+			<li><a href="my.html">마이페이지</a></li>
+			<li><a href="">비회원 주문조회</a></li>
+			<li class="cart"><a href="cart.html">장바구니 <span>(1)</span></a></li>
+		</ul>
+	</header>
+ 
+	<nav>
+		<div class="navWrap auto_mg">
+			<ul class="gnb">
+				<li class="all"><a href=""><span><img src="images/menu_icon.png" alt="전체메뉴"/></span>전체메뉴</a>
+					<!-- full menu -->
+					<div class="full_menu">
+						<div class="menu_line">
+							<h4>포장떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">10kg 잔치떡(한말)</a></li>
+								<li><a href="detail_list.html">5kg 잔치떡(반말)</a></li>
+								<li><a href="detail_list.html">1kg 잔치떡(한되)</a></li>
+								<li><a href="detail_list.html">250g 포장떡</a></li>
+								<li><a href="detail_list.html">200kg 포장떡</a></li>
+								<li><a href="detail_list.html">간식 포장떡</a></li>
+								<li><a href="detail_list.html">미니 포장떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>답례떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 답례떡</a></li>
+								<li><a href="detail_list.html">결혼 답례떡</a></li>
+								<li><a href="detail_list.html">돌/백일 답례떡</a></li>
+								<li><a href="detail_list.html">개업/기업 답례떡</a></li>
+								<li><a href="detail_list.html">첫출근/영전 답례떡</a></li>
+								<li><a href="detail_list.html">생일/회갑/고희 답례떡</a></li>
+								<li><a href="detail_list.html">조문 답례떡</a></li>
+								<li><a href="detail_list.html">팬덤/스타 답례떡</a></li>
+								<li><a href="detail_list.html">유치원/학교 답례떡</a></li>
+								<li><a href="detail_list.html">수상/감사 답례떡</a></li>
+								<li><a href="detail_list.html">응원/합격 답례떡</a></li>
+								<li><a href="detail_list.html">종교/세미나 답례떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>선물세트 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 선물세트</a></li>
+								<li><a href="detail_list.html">추천 선물세트</a></li>
+								<li><a href="detail_list.html">예단떡 (이바지떡)</a></li>
+								<li><a href="detail_list.html">오메기떡 선물세트</a></li>
+								<li><a href="detail_list.html">조청/식혜/약과/다식</a></li>
+							</ul>
+
+							<h4>음료/명절메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">식혜</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>떡케이크 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 떡케이크</a></li>
+								<li><a href="detail_list.html">추천 떡케이크</a></li>
+								<li><a href="detail_list.html">기업행사 떡케이크</a></li>
+								<li><a href="detail_list.html">상차림 케이크세트</a></li>
+								<li><a href="detail_list.html">1단/2단/3단 케이크</a></li>
+							</ul>
+
+							<h4>50년 인기메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">백설기</a></li>
+								<li><a href="detail_list.html">수수팥떡</a></li>
+								<li><a href="detail_list.html">시루떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>오메기떡</h4>
+							<ul>
+								<li><a href="detail_list.html">제주오메기떡</a></li>
+								<li><a href="detail_list.html">카카오오메기떡</a></li>
+								<li><a href="detail_list.html">말차오메기떡</a></li>
+								<li><a href="detail_list.html">수리취오메기떡</a></li>
+								<li><a href="detail_list.html">씨앗오메기떡</a></li>
+								<li><a href="detail_list.html">콩고물오메기떡</a></li>
+								<li><a href="detail_list.html">대추오메기떡</a></li>
+								<li><a href="detail_list.html">호두오메기떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>BEST</h4>
+							<ul>
+								<li><a href="detail_list.html">돌떡/백일떡/수수팥떡</a></li>
+								<li><a href="detail_list.html">유치원간식/생일잔치</a></li>
+								<li><a href="detail_list.html">예단떡/이바지떡</a></li>
+								<li><a href="detail_list.html">떡선물세트</a></li>
+								<li><a href="detail_list.html">개업떡/이사떡/시루떡</a></li>
+								<li><a href="detail_list.html">식사대용/오메기떡</a></li>
+								<li><a href="detail_list.html">케이크/생일/회갑/칠순</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="first">
+					<a href="brand.html">떡담이야기</a>
+					<ul class="subMenu1">
+						<li><a href="brand.html">브랜드 이야기</a></li>
+						<li><a href="history.html">떡담 역사</a></li>
+						<li><a href="store.html">떡담 매장</a></li>
+						<li><a href="start.html">창업 이야기</a></li>
+					</ul>
+				</li>
+				<li class="diy_menu"><a href="diy.html">DIY답례떡</a></li>
+				<li>
+					<a href="sticker.html">무료스티커</a>
+					<ul class="subMenu2">
+						<li><a href="sticker.html">스티커 신청하기</a></li>
+						<li><a href="sticker_sample.html">스티커 샘플보기</a></li>
+						<li><a href="sticker_complete.html">스티커 시안확인</a></li>
+					</ul>
+				</li>
+				<li><a href="review.html">이용후기</a></li>
+				<li>
+					<a href="cs.html">고객센터</a>
+					<ul class="subMenu3">
+						
+						<li><a href="myquestion.html">1:1 문의</a></li>
+						<li><a href="store.html">매장안내</a></li>
+						<li><a href="notice_list.html">공지사항</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="">
+					<input type="text" placeholder="기업행사케이크">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</nav>
+	
+	<h2 class="lineTitle auto_mg">마이 페이지</h2>
+
+	<div class="myinfo auto_mg cf">
+		<h3>나의 정보</h3>
+		<p>회원님의 정보를 확인하세요.</p>
+ 
+		<div class="float-left point">
+			<h5 class="float-left">보유포인트</h5>
+			<p><span>250,000,000</span>점</p>
+		</div>
+		<div class="float-left coupon">
+			<h5 class="float-left">보유쿠폰</h5>
+			<p><span>250,000,000</span>점</p>
+		</div>
+		
+		<!-- button -->
+		<div class="float-right info_button">
+			<input type="button" value="회원정보 수정" class="black_button">
+			<input type="button" value="회원탈퇴" class="white_button">
+		</div>
+	</div>
+	
+	<div class="order_list auto_mg cf">
+		<h3>최근 주문내역</h3>
+		<p>최근에 주문했던 제품들을 확인하세요.</p>
+		<div class="form_area auto_mg">
+			<form class="order_request cf">
+				<div class="order_filter">
+					<div class="filter_area cf">
+						<button>1개월</button>
+						<button>3개월</button>
+						<button>6개월</button>
+						<button>12개월</button>
+					</div>
+					<div class="date">
+						<select>
+							<option value="2017">2017</option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						<p>년</p>
+						<select>
+							<option value="5">5</option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						<p>월</p>
+						<select>
+							<option value="21">21</option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						<p>일</p>
+						<p style="margin: 0 30px 0 20px">~</p>
+						<select>
+							<option value="2017">2017</option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						<p>년</p>
+						<select>
+							<option value="5">5</option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						<p>월</p>
+						<select>
+							<option value="21">21</option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						<p>일</p>
+					</div>
+					<input type="button" value="조회하기" class="pink_button">
+				</div>
+
+				<table>
+					<tr>
+						<th width="190">주문일자</th>
+						<th width="610">상품</th>
+						<th width="190">수량</th>
+						<th width="190">구매금액</th>
+					</tr>
+					<tr class="normal">
+						<td>2017.05.12</td>
+						<td class="item">
+							<div class="img" style="background-image: url(images/best_test1.png);"></div>
+							<p>크림치즈오메기떡 미니블루베리, 딸기 약과 [차] 크림치즈오메기떡</p>
+						</td>
+						<td>1</td>
+						<td class="price">5,000원</td>
+					</tr>
+					<tr class="sub_tr normal_sub">
+						<td></td>
+						<td class="item">
+							<p><img src="images/option_sticker.jpg" alt="option_sticker">식혜 150ml</p>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="diy">
+						<td>2017.05.12</td>
+						<td class="item">
+							<div class="img" style="background-image: url(images/best_test1.png);"></div>
+							<p><img src="images/diy_sticker.jpg" alt="diy_sticker">DIY 나만의 떡만들기 12구세트</p>
+						</td>
+						<td>1</td>
+						<td class="price">5,000원</td>
+					</tr>
+					<tr class="sub_tr diy_sub">
+						<td></td>
+						<td class="item">
+							<p><img src="images/diy_sticker.jpg" alt="diy_sticker">수리취 오메기 떡</p>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="sub_tr diy_sub">
+						<td></td>
+						<td class="item">
+							<p><img src="images/diy_sticker.jpg" alt="diy_sticker">12구 상자</p>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</form>	
+		</div>
+	</div>
+	
+	<div class="wish_list auto_mg cf">		
+		<h3>최근 위시리스트</h3>
+		<p>최근에 저장한 위시리스트를 확인하세요.</p>
+		
+		<table width="1180" class="wish_table">
+		  <tr class="line_gray">
+		    <th width="620" height="60" scope="col">상품정보</th>
+		    <th width="420" height="60" scope="col">판매가격</th>
+		    <th width="140" height="60" scope="col">선택</th>
+		  </tr>
+		  <tr>
+		    <td width="620">
+				<a href="#" class="cf">
+					<div class="img_thumbs" style="background-image: url(images/logo_img.jpg);"></div>
+					<p>크림치즈 오메기떡</p>
+				</a>
+		    </td>
+		    <td width="420" class="price_border">
+		    	<p class="wish_price"><span>5,000</span>원</p>
+		    </td>
+		    <td width="140">
+		    	<div class="tableInbutton">
+		    		<input type="button" value="장바구니" class="yellow_button">
+					<input type="button" value="삭제" class="white_button_delete">
+		    	</div>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td width="620">
+				<a href="#" class="cf">
+					<div class="img_thumbs" style="background-image: url(images/logo_img.jpg);"></div>
+					<p>크림치즈 오메기떡</p>
+				</a>
+		    </td>
+		    <td width="420" class="price_border">
+		    	<p class="wish_price"><span>5,000</span>원</p>
+		    </td>
+		    <td width="140">
+		    	<div class="tableInbutton">
+		    		<input type="button" value="장바구니" class="yellow_button">
+					<input type="button" value="삭제" class="white_button_delete">
+		    	</div>
+		    </td>
+		  </tr>
+		</table>
+
+		<input type="button" value="더 보기" class="black_button bk_more float-right">
+	</div>
+
+	<footer>
+		<div class="footer_banner auto_mg">
+			<ul class="footer_banner_slide">
+				<li><img src="images/ft_banner1.png" alt="농식품부 장관상 수상"></li>
+				<li><img src="images/ft_banner2.png" alt="중소기업청장 표창"></li>
+				<li><img src="images/ft_banner3.png" alt="대한민국 100대 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner4.png" alt="우수 쌀가공제품 TOP 10"></li>
+				<li><img src="images/ft_banner5.png" alt="중소기업청장 지정 우수 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner6.png" alt="쌀가공 품평회 대상"></li>
+				<li><img src="images/ft_banner7.png" alt="2013 경기도지사상 수상"></li>
+				<li><img src="images/ft_banner8.png" alt="2013 HIT 500"></li>
+				<li><img src="images/ft_banner9.png" alt="한국 프랜차이즈 산업협회 정회원사"></li>
+				<li><img src="images/ft_banner10.png" alt="한국 식품산업협회 정회원사"></li>
+				<li><img src="images/ft_banner11.png" alt="한국 외식산업협회 정회원사"></li>
+				<li><img src="images/ft_banner12.png" alt="한국 쌀가공협회 정회원사"></li>
+			</ul>
+		</div>
+		<div class="footer_bt">
+			<div class="auto_mg">
+				<ul class="cf">
+					<li><a href="" target="_blank">이용약관</a></li>
+					<li><a href="" target="_blank">개인정보 취급방침</a></li>
+					<li><a href="" target="_blank">이메일 무단 수집 거부</a></li>
+					<li><a href="" target="_blank">고객센터</a></li>
+				</ul>
+				<address>
+					<strong>(주)라이스파이</strong>
+					<p>경기도 성남시 중원구 사기막골 90번길 14&nbsp;&nbsp;|&nbsp;&nbsp;사업자 등록번호 : 2015-20-90816&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="window.open('http://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=2152090816','','resizable=yes,menubar=no,width=750,height=700')" target="_blank" style="cursor: pointer;">사업자 정보 확인하기</a>&nbsp;&nbsp;|&nbsp;&nbsp;통신판매업 신고번호 : 제2012-경기성남-1378호<br>
+					대표 임철준&nbsp;&nbsp;|&nbsp;&nbsp;개인정보관리 책임자 신희주&nbsp;&nbsp;|&nbsp;&nbsp;대표번호 1644-8222&nbsp;&nbsp;|&nbsp;&nbsp;팩스 031-749-8283&nbsp;&nbsp;|&nbsp;&nbsp;이메일 777fortune@naver.com<br>
+					<span>Copyright © 2017 라이스파이 All Right Reserved.</span></p>
+				</address>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

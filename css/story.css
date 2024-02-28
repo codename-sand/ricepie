@@ -1,0 +1,12 @@
+@charset "utf-8";
+.top_img{width:100%;height:140px;background:url(../images/story_top_bg.jpg);overflow:auto}
+.top_img p{color:#231f20;font-weight:600;margin-top:60px;font-size:40px}
+.auto_mg h2{margin-bottom:40px}
+.border{display:inline-block;background-color:#fff;height:1364px;width:140px;vertical-align:top;border-right:1px solid #F14180}
+.history{padding-top:40px}
+.history:first-child{padding-top:80px}
+.history .circle_pink{vertical-align:top;margin-top:6px;margin-left:-7px}
+.history h4,.history ul,.circle_pink{display:inline-block}
+.history h4{margin-left:10px;vertical-align:top}
+.history ul{margin-left:120px}
+.history ul li{margin-bottom:12px}

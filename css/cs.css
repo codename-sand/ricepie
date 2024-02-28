@@ -1,0 +1,28 @@
+@charset "utf-8";
+.top_img{width:100%;height:140px;background:url(../images/cs_top_bg.jpg);overflow:auto}
+.top_img p{color:#231f20;font-weight:600;margin-top:60px;font-size:40px}
+.auto_mg h2{margin-bottom:80px}
+.event_tab{height:300px;border:1px solid #d3d2d2;border-right:0;box-sizing:border-box;background:#f2f2f2;margin-bottom:80px}
+.event_tab .event_img{float:left;width:793px;height:300px;position:relative}
+.event_tab .event_img img{display:block;position:absolute;bottom:1px;left:0;display:none}
+.event_tab .event_img img:first-child{display:block}
+.event_tab .tab_btn{float:right;width:380px;height:300px;margin-top:-1px}
+.event_tab .tab_btn div{height:100px;border-bottom:1px solid #f2f2f2;box-sizing:border-box;background:#231f20;cursor:pointer}
+.event_tab .tab_btn div.active{background:#ed1262;position:relative}
+.event_tab .tab_btn div.active:before{content:'';width:6px;height:100%;position:absolute;background:url(../images/cs_event_on.png) no-repeat left center;left:-6px}
+.event_tab .btn3{border:0!important}
+.event_tab .tab_btn p{font-size:22px;font-weight:700;color:#fff;text-align:center;line-height:100px}
+.cs_menu ul{float:left}
+.cs_menu ul li{float:left;width:180px;height:200px;border:1px solid #a7a5a6;box-sizing:border-box;margin-right:20px;text-align:center}
+.cs_menu ul li a{display:block}
+.cs_menu ul li img{display:block;width:60px;height:60px;margin:15px auto}
+.cs_menu ul li h4{color:#231f20;font-weight:600;margin-bottom:20px}
+.cs_menu ul li a:hover h4{color:#ed1262}
+.cs_menu ul li p{color:#4f4c4d;margin-bottom:10px}
+.cs_menu .ask{float:left}
+.cs_menu .ask h4{color:#231f20;font-weight:600;padding-bottom:20px;border-bottom:1px solid #7b7979;width:380px;margin-bottom:20px}
+.cs_menu .ask img{float:left;width:60px;height:60px;margin-bottom:19px}
+.cs_menu .ask p{float:left;font-weight:500;color:#4f4c4d;margin-left:20px}
+.cs_menu .ask form{clear:both;width:380px;height:60px}
+.cs_menu .ask form input[type="text"]{width:320px;height:60px;outline-width:0;padding:0;border:0;padding-left:20px;font-size:14px;color:#7b7979;border:1px solid #ccc;box-sizing:border-box;float:left}
+.cs_menu .ask form input[type="submit"]{font-size:0;width:60px;height:60px;background:#d3d2d2 url(../images/cs_search_icon.png) no-repeat center center;border:0;outline-width:0;float:left;margin-left:-1px;cursor:pointer}

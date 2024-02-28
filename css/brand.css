@@ -1,0 +1,24 @@
+@charset "utf-8";
+.top_img{width:100%;height:140px;background:url(../images/story_top_bg.jpg);overflow:auto}
+.top_img p{color:#231f20;font-weight:600;margin-top:60px;font-size:40px}
+.lineTitle{margin-bottom:40px}
+section.auto_mg{background:#d3d2d2 url(../images/brand_bg.jpg) no-repeat center top;padding:60px 0 80px}
+.brand_story h3{text-align:center;margin-bottom:30px}
+.brand_story h3.green{margin-bottom:0}
+.brand_story img{display:block;margin:20px auto 10px}
+.brand_story h1{color:#fff;font-size:60px;text-align:center;line-height:80px;font-weight:200}
+.brand_story_box{width:980px;padding:40px 0 40px 420px;box-sizing:border-box;margin:70px auto 80px;background:#231f20 url(../images/brand_story_box_bg.jpg) no-repeat left bottom}
+.brand_story_box h3{margin-bottom:20px}
+.brand_story_box p{color:#d3d2d2;font-weight:200;margin-bottom:10px}
+section > h3{text-align:center;color:#4f4c4d;margin-bottom:10px}
+section > h3 span{color:#231f20}
+.threebox{width:979px;margin:70px auto 0}
+.threebox article{width:313px;height:520px;padding-left:40px;padding-top:40px;box-sizing:border-box;float:left;color:#fff;margin-left:20px}
+.threebox article:first-child{margin-left:0}
+.threebox article h1{font-size:32px}
+.threebox article h4{line-height:28px;margin:40px 0 15px;color:#fff;font-weight:300}
+.threebox article p{line-height:24px;font-weight:200}
+.greeting{padding:80px 0 80px 400px;background:#231f20 url(../images/ceo_photo.png) no-repeat left center;box-sizing:border-box}
+.greeting h3{color:#fefefe;line-height:34px}
+.greeting p{color:#7b7979;margin-bottom:10px}
+.greeting .subtitle{color:#d3d2d2;font-size:18px;font-weight:500;margin:35px 0 20px}

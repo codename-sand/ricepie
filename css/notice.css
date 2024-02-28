@@ -1,0 +1,35 @@
+@charset "utf-8";
+.top_img{width:100%;height:140px;background:url(../images/cs_top_bg.jpg);overflow:auto}
+.top_img p{color:#231f20;font-weight:600;margin-top:60px;font-size:40px}
+.notice_list{width:100%;margin-top:55px}
+.notice_list .notice_list_top{width:100%}
+.notice_list ul.list_total{padding:25px 0 20px;float:left}
+.notice_list ul.list_total li{float:left;font-size:14px;color:#7b7979;padding:0 20px;background:url(../images/menu_line.png) no-repeat left center}
+.notice_list ul.list_total li:first-child{padding-left:0;background:none}
+.notice_list ul.list_total li span{color:#ed1262;font-weight:600}
+.notice_list .notice_list_top .notice_search{float:right}
+.notice_list .notice_list_top .notice_search select{width:180px;float:left}
+.notice_list .notice_list_top .notice_search input{float:left}
+.notice_list .notice_list_top .notice_search .search_text{width:280px;height:40px;border:1px solid #a7a5a6;box-sizing:border-box;padding-left:20px;outline-width:0;color:#4f4c4d;font-family:inherit;margin-left:-1px;font-size:16px}
+.notice_list .notice_list_top .notice_search .black_button{margin-left:-1px}
+.notice_table,.notice_view{width:100%;table-layout:fixed;margin-bottom:40px}
+.notice_table thead{height:60px;border-top:1px solid #a7a5a6;border-bottom:1px solid #a7a5a6;font-weight:700}
+.notice_table thead th,.notice_table tr td{line-height:80px}
+.notice_table tbody tr{text-align:center;border-bottom:1px solid #ccc}
+.notice_table tbody tr:hover td{cursor:pointer;color:#231f20}
+.notice_table tbody tr td:nth-child(2):hover{text-decoration:underline}
+.notice_table tr td,.notice_table tr td a{height:80px;color:#4f4c4d}
+.notice_table tr td:nth-child(2){text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.notice_view thead{height:60px;border-bottom:1px solid #7b7979}
+.notice_view thead th{line-height:60px}
+.notice_view thead th:first-child{text-align:left;font-weight:700;padding-left:24px}
+.notice_view tbody tr td{color:#4f4c4d;padding:24px}
+.sub_list{border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin-bottom:24px;color:#4f4c4d}
+.sub_list ul:hover{cursor:pointer;color:#231f20}
+.sub_list ul:first-child{border-bottom:1px solid #ccc}
+.sub_list ul li{display:table-cell;height:80px;vertical-align:middle}
+.sub_list ul li:first-child{width:80px;text-align:center}
+.sub_list ul li:nth-child(2){width:920px;padding-left:24px}
+.sub_list ul li:last-child{width:180px;text-align:center}
+.sub_list ul li span{display:block;border-right:1px solid #ccc;padding-right: 24px}
+.notice_list input[type="button"]{margin-bottom:40px}

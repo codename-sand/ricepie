@@ -1,0 +1,27 @@
+@charset "utf-8";
+.top_img{width:100%;height:140px;background:url(../images/cs_top_bg.jpg);overflow:auto}
+.top_img p{color:#231f20;font-weight:600;margin-top:60px;font-size:40px}
+.auto_mg h2{margin-bottom:60px}
+.myquestion > div > h3{color:#ed1262;margin:80px 0 10px;font-weight:600}
+.myquestion > div > p{color:#4f4c4d;padding-bottom:40px;border-bottom:1px solid #ccc}
+.myquestion > div > div{padding:20px 0;border-bottom:1px solid #ccc}
+.myquestion > div > div label{width:150px;float:left;line-height:40px;color:#231f20;font-weight:500}
+.myquestion .title_wrap select{width:180px}
+.myquestion .title_wrap input{width:840px;float:right}
+.myquestion > div > div .check_wrap{float:left;margin-right:10px;margin-top:14px}
+.myquestion > .info_agree div .check_wrap{margin-left:50px}
+.myquestion > div > div select{width:230px}
+.notify_wrap .detail_label{color:#231f20!important;font-weight:400!important;float:left;width:85px!important}
+.notify_wrap select{width:180px!important;float:left}
+.notify_wrap p.text{float:left;width:23px;line-height:40px;text-align:center}
+.notify_wrap input[type="text"]{width:180px;float:left}
+.mailwrap{clear:both;margin-left:150px;padding-top:10px}
+.myquestion > div > div textarea{width:1030px;height:370px;background:#f0f0f0;border:1px solid #a7a5a6;box-sizing:border-box;padding:20px;color:#4f4c4d;font-size:16px;font-family:inherit}
+.myquestion > div > div label.files{width:480px!important}
+.myquestion .file_account{float:left;line-height:40px;margin-left:20px}
+.myquestion .file_account span{font-weight:600;color:#231f20}
+.myquestion > div > div .input_detail{color:#4f4c4d;clear:both;margin-left:150px;padding-top:20px}
+.myquestion > div > div .input_detail span{color:#ed1262;font-weight:500}
+.myquestion .btn{clear:both;width:380px;margin:30px auto 0}
+.myquestion input[value="작성취소"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#7b7979;border:0;float:left;cursor:pointer}
+.myquestion input[value="작성완료"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#ed1262;border:0;margin-left:20px;float:left;cursor:pointer}

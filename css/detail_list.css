@@ -1,0 +1,13 @@
+.filterGroup{padding:0;margin-bottom:0}
+.filter{margin:40px 0 20px;float:right}
+.filter li{float:left;padding:0 20px;background:url(../images/menu_line.png) no-repeat right center}
+.filter li:last-child{padding-right:0;background:none}
+.filter li a{font-size:14px;color:#7b7979}
+.filter li.active a{font-weight:600;color:#ed1262}
+.best_item{margin-top:40px}
+.best_item .card{float:left}
+.best_item li:nth-child(1),.best_item li:nth-child(2),.best_item li:nth-child(3){margin-right:20px;margin-bottom:40px}
+.basic_item{clear:both}
+.basic_item .card{float:left}
+.line1 li:nth-child(1),.line1 li:nth-child(2),.line1 li:nth-child(3){margin-right:20px;margin-bottom:20px}
+.gray_item{clear:both;margin-bottom:20px}

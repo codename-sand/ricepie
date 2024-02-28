@@ -1,0 +1,90 @@
+@charset "utf-8";
+.lineTitle{margin-bottom:40px}
+.order .item_img{width:660px;float:left}
+.order .item_img .img_area{width:658px;height:514px;border:1px solid #d3d2d2;border-bottom:0}
+.order .item_img .img_area img{display:none}
+.order .item_img .img_area img:first-child{display:block}
+.order .item_img .img_tab{height:58px;position:relative}
+.order .item_img .img_tab li{width:109px;height:58px;border:1px solid #d3d2d2;float:left;margin-left:-1px;position:absolute;top:0}
+.order .item_img .img_tab li.tab1{width:108px;margin-left:0;left:0}
+.order .item_img .img_tab li.tab2{left:110px}
+.order .item_img .img_tab li.tab3{left:220px}
+.order .item_img .img_tab li.tab4{left:330px}
+.order .item_img .img_tab li.tab5{left:440px}
+.order .item_img .img_tab li.tab6{left:550px}
+.order .item_img .img_tab li.active{border-color:#241f20;z-index:9999}
+.order .item_img .img_tab li a{display:block;width:100%;height:100%;background-size:contain;background-repeat:no-repeat;background-position:center center}
+.order form{margin-left:40px;float:left;width:480px;margin-top:-20px}
+.order form p{color:#231f20;font-weight:500;float:left;clear:both;line-height:60px}
+.order form h2{float:right;line-height:60px}
+.order form h2 span{color:#ed1262}
+.order form .box{width:80px;height:40px;border:1px solid #a7a5a6;box-sizing:border-box;line-height:40px;margin-top:10px;float:right;clear:none;text-align:center;position:relative;cursor:pointer}
+.order form .box .origin{visibility:hidden;width:350px;height:125px;background-color:#fff;text-align:left;padding:10px 20px;font-weight:400;position:absolute;z-index:1;top:120%;right:-1px;border:1px solid #a7a5a6;box-sizing:border-box}
+.order form .box:hover .origin{visibility:visible}
+.order form .composition{clear:none;float:right;height:120px;text-align:right;width:345px;line-height:26px;color:#4f4c4d;font-weight:400;padding-top:15px;box-sizing:border-box}
+.order form .composition span{display:block}
+.order form .quantity{float:right;margin:10px 0}
+.order form #drink{float:right;margin:10px 0;width:180px}
+.order form #sticker{float:right;margin:10px 0 43px;width:180px}
+.order form hr{border-top:2px solid #231f20;clear:both;border-width:2px 0 0}
+.order form .total{color:#ed1262}
+.order form input[type="button"]{font-size:24px;width:180px;height:60px;margin-top:20px}
+.order form .orange_button{margin-left:18px}
+.order form .white_button{width:80px!important;float:right;background:url(../images/like_button.png) no-repeat center center}
+.naver{float:right;margin:40px 0 80px}
+.tab_content{padding:80px 40px 50px;border:1px solid #d3d2d2;border-top:0;box-sizing:border-box}
+.tab_content > div{display:none}
+.tab_content .info{display:block}
+.tab_content .info h3{font-weight:600;text-align:center;margin-bottom:200px;color:#231f20}
+.tab_content .info h4{color:#231f20;font-weight:600;margin-bottom:20px}
+.tab_content .info table{width:1100px;border-top:2px solid #241f20;border-bottom:2px solid #a7a5a6}
+.tab_content .info table th{width:380px;background:#f0f0f0;text-align:left;color:#231f20;font-weight:500;padding:20px 0 20px 20px;box-sizing:border-box;border-bottom:1px solid #d3d2d2}
+.tab_content .info table th span{display:block;margin-top:10px}
+.tab_content .info table td{color:#4f4c4d;padding-left:20px;border-bottom:1px solid #d3d2d2}
+.tab_content .review > h4{color:#231f20;padding-bottom:20px;border-bottom:2px solid #241f20;font-weight:600}
+.review ul.reviewlist li{padding:20px 0;border-bottom:1px solid #ccc;cursor:pointer}
+.review ul.reviewlist li .imgThumb{display:block;width:80px;height:80px;border:1px solid #d7d6d6;box-sizing:border-box;float:left}
+.review ul.reviewlist li .imgThumb img{display:block;width:78px;height:78px;object-fit:cover}
+.review ul.reviewlist li .text_area{float:left;margin-left:20px}
+.review ul.reviewlist li .text_area .star p{color:#4f4c4d}
+.review ul.reviewlist li .text_area .star p img{margin-left:10px}
+.review ul.reviewlist li .text_area h4{color:#231f20;font-weight:600;margin:25px 0 10px;font-size:16px}
+.review ul.reviewlist li .text_area .user{color:#4f4c4d;margin-bottom:30px}
+.reviewlist li .detail{display:none}
+.reviewlist li .detail p{color:#4f4c4d;line-height:28px;margin-bottom:40px}
+.reviewlist li .detail .img img{display:block;width:380px;height:238px;border:1px solid #a7a5a6;box-sizing:border-box;object-fit:cover;float:left}
+.reviewlist li .detail .img img:first-child{margin-right:20px}
+.tab_content .qna h4{color:#231f20;padding-bottom:20px;border-bottom:2px solid #241f20;font-weight:600}
+.tab_content .qna ul.qnalist > li{clear:both;cursor:pointer}
+.tab_content .qna ul li .summary{height:120px;overflow:auto;border-bottom:1px solid #ccc}
+.tab_content .qna ul li .summary p{color:#231f20;font-weight:600;line-height:120px;float:left}
+.tab_content .qna ul li p.ellipsis{width:800px}
+.tab_content .qna ul li p.bg{color:#fff;width:80px;height:40px;line-height:40px;font-weight:600;border-radius:20px;text-align:center;margin-top:40px;margin-right:20px}
+.tab_content .qna ul li.wating p.bg{background:#7b7979}
+.tab_content .qna ul li.complete p.bg{background:#f14181}
+.tab_content .qna ul li p.user{font-weight:400;color:#4f4c4d;float:right;margin-right:20px}
+.tab_content .qna ul li .question{padding:40px 0 40px 100px;border-bottom:1px solid #ccc}
+.tab_content .qna ul li .question h1{font-size:40px;color:#7b7979;font-weight:300;float:left;margin-right:40px}
+.tab_content .qna ul li .question p{color:#231f20;line-height:24px;float:left}
+.tab_content .qna ul li .answer{padding:40px 0 40px 100px;border-bottom:1px solid #ccc}
+.tab_content .qna ul li .answer h1{font-size:40px;color:#ed1262;font-weight:300;float:left;margin-right:40px}
+.tab_content .qna ul li .answer p{color:#231f20;line-height:24px;float:left}
+.tab_content .qna ul li .qnacontent{display:none}
+.tab_content .pink_button{float:right;margin:20px 0}
+.pink_button a{display:block;text-align:center;line-height:40px;background:#ed1262;width:80px;height:40px;color:#fff;font-weight:500}
+.popup{background-color:rgba(0,0,0,0.8);position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;display: none;}
+.popup .white_box{width:580px;height:520px;background:#fff;margin:200px auto;padding:40px;box-sizing:border-box}
+.popup .white_box h3{color:#ed1262;font-weight:600;margin-bottom:20px;float:left}
+.popup .white_box p{clear:both;color:#4f4c4d;margin-bottom:20px}
+.popup .white_box .hide{float:right}
+.popup .white_box h4{border-top:1px solid #a7a5a6;padding:20px 0;text-align:center;font-weight:600;color:#231f20}
+.popup .white_box h4 img:first-child{margin-left:15px}
+.popup .white_box textarea{width:500px;height:188px;margin-bottom:10px;padding:10px;box-sizing:border-box;outline-width:0}
+.review_popup .white_box textarea{height:170px}
+.review_popup .inputfile-6 + label span{width:400px;margin-bottom:30px}
+.popup .white_box .button{width:380px;margin:0 auto}
+.popup .white_box .button input{width:180px;height:60px;background:#ed1162;color:#fff;font-weight:600;font-size:24px;border:0;outline-width:0;float:left;margin-right:20px}
+.popup .white_box .button button{width:180px;height:60px;background:#7b7979;color:#fff;font-weight:600;font-size:24px;border:0;outline-width:0;float:left}
+.popup .white_box > input[type="text"]{width:500px;margin-bottom:10px}
+.popup .white_box .check_wrap{margin-bottom:40px}
+.popup .white_box .check_wrap label{float:left;width:100px;margin-left:22px;margin-top:-2px;color:#4f4c4d}

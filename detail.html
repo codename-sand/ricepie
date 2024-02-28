@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="BYFIsoft">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>365일 답례떡은 역시 떡담!</title>
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/full_menu.css">
+	<link rel="stylesheet" href="css/detail.css">
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/number.js"></script>
+	<script type="text/javascript" src="js/detail.js"></script>
+</head>
+
+<body>
+	<div class="top_line auto_mg"></div>
+	<header class="cf">		
+		<div class="top_banner">
+			<ul class="top_banner_slide">
+				<li>
+					<a href="">
+						<img src="images/top_banner1.png" alt="직접담는 DIY 답례떡"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<h1><a href="index.html"><img src="images/logo.png" alt="떡담"/></a></h1>
+		<ul class="top_menu">
+			<li><a href="login.html">로그인</a></li>
+			<li><a href="my.html">마이페이지</a></li>
+			<li><a href="">비회원 주문조회</a></li>
+			<li class="cart"><a href="cart.html">장바구니 <span>(1)</span></a></li>
+		</ul>
+	</header>
+ 
+	<nav>
+		<div class="navWrap auto_mg">
+			<ul class="gnb">
+				<li class="all"><a href=""><span><img src="images/menu_icon.png" alt="전체메뉴"/></span>전체메뉴</a>
+					<!-- full menu -->
+					<div class="full_menu">
+						<div class="menu_line">
+							<h4>포장떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">10kg 잔치떡(한말)</a></li>
+								<li><a href="detail_list.html">5kg 잔치떡(반말)</a></li>
+								<li><a href="detail_list.html">1kg 잔치떡(한되)</a></li>
+								<li><a href="detail_list.html">250g 포장떡</a></li>
+								<li><a href="detail_list.html">200kg 포장떡</a></li>
+								<li><a href="detail_list.html">간식 포장떡</a></li>
+								<li><a href="detail_list.html">미니 포장떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>답례떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 답례떡</a></li>
+								<li><a href="detail_list.html">결혼 답례떡</a></li>
+								<li><a href="detail_list.html">돌/백일 답례떡</a></li>
+								<li><a href="detail_list.html">개업/기업 답례떡</a></li>
+								<li><a href="detail_list.html">첫출근/영전 답례떡</a></li>
+								<li><a href="detail_list.html">생일/회갑/고희 답례떡</a></li>
+								<li><a href="detail_list.html">조문 답례떡</a></li>
+								<li><a href="detail_list.html">팬덤/스타 답례떡</a></li>
+								<li><a href="detail_list.html">유치원/학교 답례떡</a></li>
+								<li><a href="detail_list.html">수상/감사 답례떡</a></li>
+								<li><a href="detail_list.html">응원/합격 답례떡</a></li>
+								<li><a href="detail_list.html">종교/세미나 답례떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>선물세트 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 선물세트</a></li>
+								<li><a href="detail_list.html">추천 선물세트</a></li>
+								<li><a href="detail_list.html">예단떡 (이바지떡)</a></li>
+								<li><a href="detail_list.html">오메기떡 선물세트</a></li>
+								<li><a href="detail_list.html">조청/식혜/약과/다식</a></li>
+							</ul>
+
+							<h4>음료/명절메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">식혜</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>떡케이크 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 떡케이크</a></li>
+								<li><a href="detail_list.html">추천 떡케이크</a></li>
+								<li><a href="detail_list.html">기업행사 떡케이크</a></li>
+								<li><a href="detail_list.html">상차림 케이크세트</a></li>
+								<li><a href="detail_list.html">1단/2단/3단 케이크</a></li>
+							</ul>
+
+							<h4>50년 인기메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">백설기</a></li>
+								<li><a href="detail_list.html">수수팥떡</a></li>
+								<li><a href="detail_list.html">시루떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>오메기떡</h4>
+							<ul>
+								<li><a href="detail_list.html">제주오메기떡</a></li>
+								<li><a href="detail_list.html">카카오오메기떡</a></li>
+								<li><a href="detail_list.html">말차오메기떡</a></li>
+								<li><a href="detail_list.html">수리취오메기떡</a></li>
+								<li><a href="detail_list.html">씨앗오메기떡</a></li>
+								<li><a href="detail_list.html">콩고물오메기떡</a></li>
+								<li><a href="detail_list.html">대추오메기떡</a></li>
+								<li><a href="detail_list.html">호두오메기떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>BEST</h4>
+							<ul>
+								<li><a href="detail_list.html">돌떡/백일떡/수수팥떡</a></li>
+								<li><a href="detail_list.html">유치원간식/생일잔치</a></li>
+								<li><a href="detail_list.html">예단떡/이바지떡</a></li>
+								<li><a href="detail_list.html">떡선물세트</a></li>
+								<li><a href="detail_list.html">개업떡/이사떡/시루떡</a></li>
+								<li><a href="detail_list.html">식사대용/오메기떡</a></li>
+								<li><a href="detail_list.html">케이크/생일/회갑/칠순</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="first">
+					<a href="brand.html">떡담이야기</a>
+					<ul class="subMenu1">
+						<li><a href="brand.html">브랜드 이야기</a></li>
+						<li><a href="history.html">떡담 역사</a></li>
+						<li><a href="store.html">떡담 매장</a></li>
+						<li><a href="start.html">창업 이야기</a></li>
+					</ul>
+				</li>
+				<li class="diy_menu"><a href="diy.html">DIY답례떡</a></li>
+				<li>
+					<a href="sticker.html">무료스티커</a>
+					<ul class="subMenu2">
+						<li><a href="sticker.html">스티커 신청하기</a></li>
+						<li><a href="sticker_sample.html">스티커 샘플보기</a></li>
+						<li><a href="sticker_complete.html">스티커 시안확인</a></li>
+					</ul>
+				</li>
+				<li><a href="review.html">이용후기</a></li>
+				<li>
+					<a href="cs.html">고객센터</a>
+					<ul class="subMenu3">
+						
+						<li><a href="myquestion.html">1:1 문의</a></li>
+						<li><a href="store.html">매장안내</a></li>
+						<li><a href="notice_list.html">공지사항</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="">
+					<input type="text" placeholder="기업행사케이크">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</nav>
+	
+	<h2 class="lineTitle auto_mg">moonhak 40x80-2호</h2>
+
+	<section class="auto_mg">		
+		<div class="order cf">
+			<div class="item_img">
+				<div class="img_area">
+					<img src="images/item_test.jpg" alt="item_test">
+					<img src="images/item_test.jpg" alt="item_test2">
+					<img src="images/item_test.jpg" alt="item_test3">
+					<img src="images/item_test.jpg" alt="item_test4">
+					<img src="images/item_test.jpg" alt="item_test5">
+					<img src="images/item_test.jpg" alt="item_test6">
+				</div>
+				<ul class="img_tab">
+					<li class="tab1 active">
+						<a href="#" style="background-image: url(images/item_test.jpg);"></a>
+					</li>
+					<li class="tab2">
+						<a href="#" style="background-image: url(images/item_test.jpg);"></a>
+					</li>
+					<li class="tab3">
+						<a href="#" style="background-image: url(images/item_test.jpg);"></a>
+					</li>
+					<li class="tab4">
+						<a href="#" style="background-image: url(images/item_test.jpg);"></a>
+					</li>
+					<li class="tab5">
+						<a href="#" style="background-image: url(images/item_test.jpg);"></a>
+					</li>
+					<li class="tab6">
+						<a href="#" style="background-image: url(images/item_test.jpg);"></a>
+					</li>
+				</ul>
+			</div>
+			<form action="">
+				<div class="cf">
+					<p>가격</p>
+					<h2><span>400,000</span>원</h2>
+					<p>원산지</p>
+					<p class="box">
+						보기
+						<span class="origin">원산지 : 국산</span>
+					</p>
+					<p>제품구성</p>
+					<p class="composition">
+						<span>12구케이스</span>
+						<span>곶감화과자2,콩고물오메기2,호두오메기(쑥,백련초),호두오메기(바나나)2,도끼화과자2,포크화과자2</span>
+					</p>
+					<label for="amount"><p>수량</p></label>
+					<div class="quantity">
+						<input type="number" min="10" max="100" value="10" id="amount">
+					</div>
+					<label for="drink"><p>음료선택</p></label>
+					<select id="drink">
+						<option value="선택">선택</option>
+						<option value="컵식혜(150ml)">컵식혜(150ml)</option>
+						<option value="식혜(340ml)">식혜(340ml)</option>
+						<option value="식혜(1.5l)">식혜(1.5l)</option>
+						<option value="수정과(340ml)">수정과(340ml)</option>
+						<option value="선택안함">선택안함</option>
+					</select>
+					<label for="sticker"><p>스티커 신청</p></label>
+					<select id="sticker">
+						<option value="선택">선택</option>
+						<option value="선택안함">선택안함</option>
+					</select>
+					<hr>
+					<p class="total">총 구매금액</p>
+					<h2 class="total_price"><span>400,000</span>원</h2>
+				</div>
+				<input type="button" class="pink_button" value="구매하기">
+				<input type="button" class="orange_button" value="장바구니">
+				<input type="button" class="white_button">
+			</form>
+			<div class="naver">
+				<img src="images/naver_area.jpg" alt="naver_area" class="block">
+			</div>
+		</div>
+
+		<ul class="tab_btn tab_three" style="height: 60px">
+			<li class="active">상품정보</li>
+			<li>상품후기</li>
+			<li>Q&A</li>
+		</ul>
+
+		<div class="tab_content">
+			<div class="info">
+				<h3>상세페이지</h3>
+				<h4>상품 정보</h4>
+				<table>
+					<tr>
+						<th>제품명</th>
+						<td>[프리미엄] 선물세트 48-4호</td>
+					</tr>
+					<tr>
+						<th>식품의 유형</th>
+						<td>식품 접객업소의 조리식품</td>
+					</tr>
+					<tr>
+						<th>생산자 및 소재지<span>(수입품의 경우 생산자, 수입자 제조국)</span></th>
+						<td>라이스파이/경기도 성남시 중원구 사기막골 90번길 14</td>
+					</tr>
+					<tr>
+						<th>제조연월일, 유통기한 또는 품질 유지기한</th>
+						<td>당일제조/구입 후 가급적 빠른 시간 내 드시기 바랍니다. 보관시, 랩으로 소량 포장하여 냉동 보관하시기 바랍니다.</td>
+					</tr>
+					<tr>
+						<th>포장단위별 용량(중량), 수량</th>
+						<td>상품 상세설명 참조</td>
+					</tr>
+					<tr>
+						<th>원산지 정보</th>
+						<td>상단 별도 표기</td>
+					</tr>
+					<tr>
+						<th>영양성분<span>(식품위생법에 따른 영양성분 표시대상 식품에 한함)</span></th>
+						<td>해당없음</td>
+					</tr>
+					<tr>
+						<th>유전자 재조합 식품에 해당하는 경우의 표시</th>
+						<td>해당없음</td>
+					</tr>
+					<tr>
+						<th>영유아식 또는 체중조절식품 등에 해당하는 경우<span>표시광고 사전 심의필 유무 및 부작용 발생 가능성</span></th>
+						<td>해당없음</td>
+					</tr>
+					<tr>
+						<th>수입식품에 해당하는 경우<span>식품위생법에 따른 수입신고를 필함의 문구</span></th>
+						<td>해당없음</td>
+					</tr>
+					<tr>
+						<th>소비자 상담 관련 전화번호</th>
+						<td>1644-8222</td>
+					</tr>
+				</table>
+			</div>
+			<div class="review">
+				<h4>상품후기</h4>
+				<ul class="reviewlist">
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cf">
+						<div class="imgThumb">
+							<img src="images/review_link_test.jpg" alt="review_link_test">
+						</div>
+						<div class="text_area">
+							<div class="star">
+								<p>평가점수<img src="images/star_06.png" alt="star"></p>
+							</div>
+							<h4>너무 좋아서 이용후기 쓰러 왔습니다~ (사진도 있어요 참고하세용~ ㅎㅎㅎ)</h4>
+							<p class="user">작성자 <span>토토</span></p>
+							<div class="detail">
+								<p>정말 직접 골라서 구매한 고객이고요~ 알바도 아니고 진짜예요~<br>회사에 떡 돌릴 일이 있어서 구매하게 되었습니다 ㅎㅎ<br>이미지를 보내드리니 사진도 붙여주시고 떡도 너무너무 맛있었습니다!<br>약과와 미니두텁을 강추하고요!<br>친절하시고 배송도 좋구요!<br>주변에 강추강추 했구요~<br>감사 인사 드릴 일이 생기면 또 이용 할께요!<br>좋은 하루 되시고 번창하세요 ^^</p>
+								<div class="img cf">
+									<img src="images/review_detail_test1.jpg" alt="review_detail_test">
+									<img src="images/review_detail_test2.jpg" alt="review_detail_test">
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<div class="pink_button write_button">
+					<a href="">글쓰기</a>
+				</div>
+
+				<div class="pager cf">
+					<div class="start">
+						<img src="images/pager_start.jpg" alt="pager_control">
+					</div>
+					<div class="prev">
+						<img src="images/pager_prev.jpg" alt="pager_control">
+					</div>
+					<ul class="pager_ul">
+						<li class="active"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+						<li><a href="">4</a></li>
+						<li><a href="">5</a></li>
+						<li><a href="">6</a></li>
+						<li><a href="">7</a></li>
+						<li><a href="">8</a></li>
+						<li><a href="">9</a></li>
+						<li><a href="">10</a></li>
+					</ul>
+					<div class="next">
+						<img src="images/pager_next.jpg" alt="pager_control">
+					</div>
+					<div class="end">
+						<img src="images/pager_end.jpg" alt="pager_control">
+					</div>
+				</div>
+			</div>
+			<div class="qna">
+				<h4>Q&A</h4>
+				<ul class="qnalist">
+					<li class="wating cf">
+						<div class="summary cf">
+							<p class="bg">답변대기</p>
+							<p class="ellipsis">언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요....</p>
+							<p class="user">작성자 <span>토토</span></p>
+						</div>
+						<div class="qnacontent">
+							<div class="question cf">
+								<h1>Q</h1>
+								<p>언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요...<br>다음주까지 받을 수 있을까요?<br>제발욤~</p>
+							</div>
+						</div>
+					</li>
+					<li class="complete cf">
+						<div class="summary cf">
+							<p class="bg">답변완료</p>
+							<p class="ellipsis">언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요...</p>
+							<p class="user">작성자 <span>토토</span></p>
+						</div>
+						<div class="qnacontent">
+							<div class="question cf">
+								<h1>Q</h1>
+								<p>언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요...<br>다음주까지 받을 수 있을까요?<br>제발욤~</p>
+							</div>						
+							<div class="answer cf">
+								<h1>A</h1>
+								<p>고객님 ㅠㅠ 주문이 많아서 배송이 조금 지연되고 있네요...<br>너무 죄송합니다.. 최대한 빨리 보내드리도록 할께요~ 양해 부탁 드립니다!</p>
+							</div>
+						</div>
+					</li>
+					<li class="wating cf">
+						<div class="summary cf">
+							<p class="bg">답변대기</p>
+							<p class="ellipsis">언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요....</p>
+							<p class="user">작성자 <span>토토</span></p>
+						</div>
+						<div class="qnacontent">
+							<div class="question cf">
+								<h1>Q</h1>
+								<p>언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요...<br>다음주까지 받을 수 있을까요?<br>제발욤~</p>
+							</div>
+						</div>
+					</li>
+					<li class="wating cf">
+						<div class="summary cf">
+							<p class="bg">답변대기</p>
+							<p class="ellipsis">언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요....</p>
+							<p class="user">작성자 <span>토토</span></p>
+						</div>
+						<div class="qnacontent">
+							<div class="question cf">
+								<h1>Q</h1>
+								<p>언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요...<br>다음주까지 받을 수 있을까요?<br>제발욤~</p>
+							</div>
+						</div>
+					</li>
+					<li class="wating cf">
+						<div class="summary cf">
+							<p class="bg">답변대기</p>
+							<p class="ellipsis">언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요....</p>
+							<p class="user">작성자 <span>토토</span></p>
+						</div>
+						<div class="qnacontent">
+							<div class="question cf">
+								<h1>Q</h1>
+								<p>언제 배송되나요 ㅠㅠ 빨리 보내주세요!! 현기증 난단 말이에요...<br>다음주까지 받을 수 있을까요?<br>제발욤~</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<div class="pink_button write_button">
+					<a href="">글쓰기</a>
+				</div>
+
+				<div class="pager cf">
+					<div class="start">
+						<img src="images/pager_start.jpg" alt="pager_control">
+					</div>
+					<div class="prev">
+						<img src="images/pager_prev.jpg" alt="pager_control">
+					</div>
+					<ul class="pager_ul">
+						<li class="active"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+						<li><a href="">4</a></li>
+						<li><a href="">5</a></li>
+						<li><a href="">6</a></li>
+						<li><a href="">7</a></li>
+						<li><a href="">8</a></li>
+						<li><a href="">9</a></li>
+						<li><a href="">10</a></li>
+					</ul>
+					<div class="next">
+						<img src="images/pager_next.jpg" alt="pager_control">
+					</div>
+					<div class="end">
+						<img src="images/pager_end.jpg" alt="pager_control">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<form action="" class="write_popup">
+		<div class="review_popup popup">
+			<div class="white_box">
+				<h3>상품후기 작성</h3>
+				<a href="" class="hide"><img src="images/login_close.png"></a>
+				<p>상품 후기를 작성해 주세요. </p>
+				<h4>만족도<img src="images/star_on.png" alt="star"><img src="images/star_on.png" alt="star"><img src="images/star_on.png" alt="star"><img src="images/star_off.png" alt="star"><img src="images/star_off.png" alt="star"></h4>
+				<textarea></textarea>
+				<input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+				<label for="file-7"><span>첨부된 파일이 없습니다.</span> <strong>파일 찾기</strong></label>
+				<script src="js/file.js"></script>
+				<div class="button">
+					<input type="submit" value="등록하기">
+					<button>취소하기</button>
+				</div>
+			</div>
+		</div>
+		<div class="qna_popup popup">
+			<div class="white_box">
+				<h3>Q&A 작성</h3>
+				<a href="" class="hide"><img src="images/login_close.png"></a>
+				<p>이 상품에 대해 문의 하세요.</p>
+				<input type="text">
+				<textarea></textarea>
+				<div class="check_wrap">
+					<input type="checkbox" value="" name="" id="secret">
+					<div class="check_btn"></div>
+					<label for="secret">비밀글</label>
+				</div>
+				<div class="button">
+					<input type="submit" value="등록하기">
+					<button>취소하기</button>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<footer>
+		<div class="footer_banner auto_mg">
+			<ul class="footer_banner_slide">
+				<li><img src="images/ft_banner1.png" alt="농식품부 장관상 수상"></li>
+				<li><img src="images/ft_banner2.png" alt="중소기업청장 표창"></li>
+				<li><img src="images/ft_banner3.png" alt="대한민국 100대 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner4.png" alt="우수 쌀가공제품 TOP 10"></li>
+				<li><img src="images/ft_banner5.png" alt="중소기업청장 지정 우수 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner6.png" alt="쌀가공 품평회 대상"></li>
+				<li><img src="images/ft_banner7.png" alt="2013 경기도지사상 수상"></li>
+				<li><img src="images/ft_banner8.png" alt="2013 HIT 500"></li>
+				<li><img src="images/ft_banner9.png" alt="한국 프랜차이즈 산업협회 정회원사"></li>
+				<li><img src="images/ft_banner10.png" alt="한국 식품산업협회 정회원사"></li>
+				<li><img src="images/ft_banner11.png" alt="한국 외식산업협회 정회원사"></li>
+				<li><img src="images/ft_banner12.png" alt="한국 쌀가공협회 정회원사"></li>
+			</ul>
+		</div>
+		<div class="footer_bt">
+			<div class="auto_mg">
+				<ul class="cf">
+					<li><a href="" target="_blank">이용약관</a></li>
+					<li><a href="" target="_blank">개인정보 취급방침</a></li>
+					<li><a href="" target="_blank">이메일 무단 수집 거부</a></li>
+					<li><a href="" target="_blank">고객센터</a></li>
+				</ul>
+				<address>
+					<strong>(주)라이스파이</strong>
+					<p>경기도 성남시 중원구 사기막골 90번길 14&nbsp;&nbsp;|&nbsp;&nbsp;사업자 등록번호 : 2015-20-90816&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="window.open('http://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=2152090816','','resizable=yes,menubar=no,width=750,height=700')" target="_blank" style="cursor: pointer;">사업자 정보 확인하기</a>&nbsp;&nbsp;|&nbsp;&nbsp;통신판매업 신고번호 : 제2012-경기성남-1378호<br>
+					대표 임철준&nbsp;&nbsp;|&nbsp;&nbsp;개인정보관리 책임자 신희주&nbsp;&nbsp;|&nbsp;&nbsp;대표번호 1644-8222&nbsp;&nbsp;|&nbsp;&nbsp;팩스 031-749-8283&nbsp;&nbsp;|&nbsp;&nbsp;이메일 777fortune@naver.com<br>
+					<span>Copyright © 2017 라이스파이 All Right Reserved.</span></p>
+				</address>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

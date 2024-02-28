@@ -1,0 +1,81 @@
+@charset "utf-8";
+.top_img{width:100%;height:140px;background:url(../images/sticker_top_bg.jpg);overflow:auto}
+.top_img p{color:#231f20;font-weight:600;margin-top:60px;font-size:40px}
+.auto_mg h2{margin-bottom:40px}
+.how h3{color:#231f20;font-weight:600;text-align:center;margin-bottom:40px}
+.how_list{width:800px;margin:0 auto;padding-bottom:60px}
+.how_list li{width:400px;float:left;text-align:center}
+.how_list li h4{margin:40px 0 15px;font-weight:600;color:#231f20}
+.how_list li p{color:#4f4c4d;line-height:24px}
+.sticker_list{width:100%;margin-top:55px}
+.sticker_list .sticker_list_top{width:100%;border-bottom:1px solid #ccc;margin-bottom:60px}
+.sticker_list ul.list_total{padding:25px 0 20px;float:left}
+.sticker_list ul.list_total li{float:left;font-size:14px;color:#7b7979;padding:0 20px;background:url(../images/menu_line.png) no-repeat left center}
+.sticker_list ul.list_total li:first-child{padding-left:0;background:none}
+.sticker_list ul.list_total li span{color:#ed1262;font-weight:600}
+.sticker_list .sticker_list_top .sticker_search{float:right}
+.sticker_list .sticker_list_top .sticker_search select{width:180px;float:left}
+.sticker_list .sticker_list_top .sticker_search input{float:left}
+.sticker_list .sticker_list_top .sticker_search .search_text{width:280px;height:40px;border:1px solid #a7a5a6;box-sizing:border-box;padding-left:20px;outline-width:0;color:#4f4c4d;font-family:inherit;margin-left:-1px;font-size:16px}
+.sticker_list .sticker_list_top .sticker_search .black_button{margin-left:-1px}
+.sticker_list_board{padding-bottom:20px;border-bottom:2px solid #a7a5a6}
+.sticker_list_board li{width:280px;float:left;margin-right:20px;margin-bottom:40px}
+.sticker_list_board li:nth-child(4n){margin-right:0}
+.sticker_list_board li a{display:block}
+.sticker_img{width:280px;height:175px;box-sizing:border-box;border:1px solid #d3d2d2;background-size:contain;background-position:center center;background-repeat:no-repeat}
+.sticker_list_board li a h4{font-weight:600;color:#231f20;margin:20px 0 10px}
+.sticker_list_board li a p{color:#4f4c4d}
+.sticker_list .white_button{float:right;margin:20px 0}
+.sticker_list .white_button a{display:block;text-align:center;line-height:40px;background:#fff!important;border:1px solid #a7a5a6;width:80px;height:40px;color:#231f20!important;margin-right:10px;font-weight:500;box-sizing:border-box}
+.sticker_list .pink_button{float:right;margin:20px 0}
+.sticker_list .pink_button a{display:block;text-align:center;line-height:40px;background:#ed1262;width:80px;height:40px;color:#fff;font-weight:500}
+.sticker_detail{width:100%;padding-top:80px}
+.sticker_detail .detail_title{width:100%;padding-bottom:20px;border-bottom:2px solid #231f20}
+.sticker_detail .detail_title h4{float:left;color:#231f20;font-weight:600}
+.sticker_detail .detail_title p{color:#4f4c4d;float:right}
+.sticker_detail .detail_content{padding:60px 0;border-bottom:2px solid #a7a5a6;margin-bottom:60px}
+.sticker_detail .detail_content img{display:block;width:100%;margin-bottom:40px}
+.sticker_detail .detail_content p{color:#4f4c4d}
+.sticker_detail .detail_comment h4{color:#231f20;font-weight:600;margin-bottom:20px}
+.sticker_detail .detail_comment input[type="text"]{width:1058px;height:60px;border:1px solid #ccc;box-sizing:border-box;padding-left:20px;outline-width:0;color:#4f4c4d;font-family:inherit;background:#f0f0f0;font-size:16px;float:left}
+.sticker_detail .detail_comment .black_button{width:122px;height:60px;float:left}
+.sticker_detail .detail_comment .detail_comment_list{width:100%;padding:20px 0;border-bottom:1px solid #ccc}
+.sticker_detail .detail_comment .comment_list_info{margin-bottom:10px}
+.sticker_detail .detail_comment .comment_list_info p{color:#231f20;font-weight:600;float:left}
+.sticker_detail .detail_comment .comment_list_info span{color:#7b7979;font-size:14px;float:left;padding-left:20px;background:url(../images/menu_line.png) no-repeat 10px center}
+.sticker_detail .detail_comment .comment_list_info .reply{float:right;cursor:pointer}
+.sticker_detail .detail_comment .comment_list_info .reply img{float:left}
+.sticker_detail .detail_comment .comment_list_info .reply p{font-size:14px;font-weight:500;margin-left:5px}
+.sticker_detail .detail_comment .detail_comment_list > p{color:#231f20}
+.sticker_detail .detail_comment .detail_comment_list form{margin-top:20px}
+.sticker_detail .detail_comment_list_reply .comment_list_info > p{background:url(../images/reply_line.jpg) no-repeat 0 2px;padding-left:15px}
+.sticker_detail .detail_comment_list_reply > p{margin-left:15px}
+.sticker_detail .detail_comment .return{float:right;margin-top:20px}
+.sticker_detail .detail_comment .return li{float:left}
+.sticker_detail .detail_comment .return li a{display:block;text-align:center;line-height:40px;background:#ed1262;width:80px;height:40px;color:#fff;font-weight:500}
+.sticker_detail .detail_comment .white_button a{background:#fff!important;border:1px solid #a7a5a6;box-sizing:border-box;color:#231f20!important;margin-right:10px}
+.sticker_request > div > h3{color:#ed1262;margin:80px 0 10px;font-weight:600}
+.sticker_request > div > p{color:#4f4c4d;padding-bottom:40px;border-bottom:1px solid #ccc}
+.sticker_request > div > div{padding:20px 0;border-bottom:1px solid #ccc}
+.sticker_request > div > div label{width:150px;float:left;line-height:40px;color:#231f20;font-weight:500}
+.sticker_request > div > div label p span{color:#ed1262}
+.three_wrap select{width:180px!important;float:left}
+.three_wrap p.text{float:left;width:23px;line-height:40px;text-align:center}
+.three_wrap input[type="text"]{width:180px;float:left}
+.sticker_request > div > div textarea{width:932px;height:380px;background:#f0f0f0;border:1px solid #a7a5a6;box-sizing:border-box;padding:20px;color:#4f4c4d;font-size:16px;font-family:inherit}
+.sticker_request > div > div label.files{width:480px!important}
+.sticker_request .file_account{float:left;line-height:40px;margin-left:20px}
+.sticker_request .file_account span{font-weight:600;color:#231f20}
+.sticker_request > div > div .input_detail{color:#4f4c4d;clear:both;margin-left:150px;padding-top:20px;line-height:24px}
+.sticker_request > div > div .input_detail span{color:#ed1262;font-weight:500}
+.sticker_request > p{color:#f14181;float:right;margin:20px 0 30px}
+.sticker_request > div label[for="auto"]{line-height:80px}
+.sticker_request > div .auto_box{width:205px;height:79px;border:1px solid #a7a5a6;box-sizing:border-box;float:left;margin-right:20px;background:#f0f0f0;padding-left:20px;position:relative}
+.sticker_request > div .auto_box p{color:#4f4c4d;font-size:50px;line-height:77px}
+.sticker_request > div .auto_box > div{width:40px;height:40px;border:1px solid #a7a5a6;box-sizing:border-box;cursor:pointer;background:#fff;position:absolute;right:-1px}
+.sticker_request > div .auto_box > div.reset{top:-1px;background:url(../images/reset_btn.jpg) no-repeat center center}
+.sticker_request > div .auto_box > div.speaker{bottom:-1px;background:url(../images/speaker_btn.jpg) no-repeat center center}
+.sticker_request > div input[id="auto"]{width:205px;height:79px}
+.sticker_request .btn{clear:both;width:380px;margin:0 auto}
+.sticker_request input[value="작성완료"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#ed1262;border:0;margin-right:20px;float:left;cursor:pointer}
+.sticker_request input[value="작성취소"]{display:block;width:180px;height:60px;font-weight:600;color:#fff;font-size:24px;text-align:center;background:#7b7979;border:0;float:left;cursor:pointer}

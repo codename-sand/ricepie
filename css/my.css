@@ -1,0 +1,42 @@
+@charset "utf-8";
+.myinfo{margin-top:60px;margin-bottom:80px}
+.myinfo > h3,.order_list > h3,.wish_list > h3{color:#ed1262;font-weight:600;margin:0 0 10px}
+.myinfo > p,.order_list > p,.wish_list > p{color:#4f4c4d;margin-bottom:40px}
+.point,.coupon{border:1px solid #a7a5a6;width:590px;height:60px;padding-left:40px;box-sizing:border-box}
+.coupon{margin-left:-1px}
+.point > h5,.coupon > h5{color:#7b7979;font-weight:500;font-size:16px;line-height:58px;margin-right:60px}
+.point > p,.coupon > p{color:#f14181;font-size:18px;font-weight:600;line-height:58px}
+.myinfo .info_button{margin-top:20px}
+.myinfo .info_button .black_button{width:114px!important;margin-right:10px!important}
+.myinfo .info_button .white_button{width:114px!important;border:1px solid #241f20!important}
+.order_list{margin-bottom:80px}
+.order_filter{width:1180px;height:180px;background:#f0f0f0;padding:40px;box-sizing:border-box;position:relative}
+.order_filter .filter_area button{width:81px;height:40px;box-sizing:border-box;border:1px solid #241f20;background:#fff;font-size:16px;font-family:inherit;font-weight:600;cursor:pointer;float:left;margin:0;margin-left:-1px;outline-width:0}
+.order_filter .filter_area button:first-child{margin-left:0}
+.order_filter .date{margin-top:20px}
+.order_filter .date select{width:100px!important;background-color:#fff;float:left}
+.order_filter .date p{float:left;color:#4f4c4d;line-height:40px;margin:0 10px}
+.order_filter > input{position:absolute;right:40px;top:40px;width:180px!important;height:100px!important;font-size:24px!important}
+table{margin-top:40px}
+table th{font-weight:600;color:#231f20;height:60px;border-top:1px solid #a7a5a6;border-bottom:1px solid #a7a5a6;vertical-align:middle}
+table td{color:#4f4c4d;height:120px;border-bottom:1px solid #a7a5a6;vertical-align:middle;text-align:center}
+table td.item{padding-left:20px;box-sizing:border-box}
+table td.item > div{display:table-cell;vertical-align:middle;width:80px;height:80px;border:1px solid #d8d7d7;box-sizing:border-box;background-repeat:no-repeat;background-size:contain;background-position:center center}
+table td.item > p{display:table-cell;vertical-align:middle;width:280px;line-height:28px;text-align:left;padding-left:20px;position:relative}
+table td.item > p img{display:block;position:absolute;top:0}
+table td.price{color:#ed1262;font-size:20px;font-weight:600}
+.order_request .order_table tr td.info_td .img{width:80px;height:80px;border:1px solid #d8d7d7;display:table-cell;vertical-align:middle;margin-right:40px;box-sizing:border-box}
+table .sub_tr td{height:60px;background:#f9f9f9}
+table .sub_tr td.item > p{display:table-cell;vertical-align:middle;width:280px;line-height:28px;text-align:left;padding-left:100px}
+table .sub_tr td.item > p img{float:left;position:static;margin-top:4px;margin-right:10px}
+.bk_more{background:#231f20;width:80px!important;height:40px;border:0;outline-width:0;box-sizing:border-box;color:#fff;font-weight:500;cursor:pointer;font-size:16px;margin-top:20px}
+.wish_table tr{border-top:1px solid #d1d1d1;border-bottom:1px solid #d1d1d1;color:#4f4c4d;font-size:16px;font-weight:400}
+.wish_table tr td{vertical-align:top}
+.wish_table tr td a{display:block;width:620px;padding-left:120px;padding-top:40px;box-sizing:border-box}
+.wish_table tr td a .img_thumbs{display:block;width:80px;height:80px;border:1px solid #d8d7d7;box-sizing:border-box;float:left;margin-right:40px;background-size:contain;background-repeat:no-repeat;background-position:center center}
+.wish_table tr td a p{line-height:80px;color:#4f4c4d}
+.wish_price{font-size:20px;color:#f14181!important;text-align:center;font-weight:600;line-height:160px}
+.price_border{border-left:1px solid #d1d1d1!important;border-right:1px solid #d1d1d1!important}
+.wish_table tr td .tableInbutton{margin-left:20px;margin-top:35px}
+.wish_table tr td .tableInbutton .yellow_button{width:100px!important}
+.wish_table tr td .tableInbutton .white_button_delete{width:100px!important;background:#fff;height:40px;border:1px solid #7b7979;outline-width:0;box-sizing:border-box;font-weight:500;cursor:pointer;font-size:16px;color:#231f20;margin-top:10px}

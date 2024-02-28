@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="BYFIsoft">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>365일 답례떡은 역시 떡담!</title>
+
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/full_menu.css">
+	<link rel="stylesheet" href="css/start_request.css">
+	
+	<script src="js/modernizr.js"></script>
+	<script src="js/html5shiv.js"></script>
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/start.js"></script>
+</head>
+
+<body>
+	<div class="top_line auto_mg"></div>
+	<header class="cf">		
+		<div class="top_banner">
+			<ul class="top_banner_slide">
+				<li>
+					<a href="">
+						<img src="images/top_banner1.png" alt="직접담는 DIY 답례떡"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<h1><a href="index.html"><img src="images/logo.png" alt="떡담"/></a></h1>
+		<ul class="top_menu">
+			<li><a href="login.html">로그인</a></li>
+			<li><a href="my.html">마이페이지</a></li>
+			<li><a href="">비회원 주문조회</a></li>
+			<li class="cart"><a href="cart.html">장바구니 <span>(1)</span></a></li>
+		</ul>
+	</header>
+ 
+	<nav>
+		<div class="navWrap auto_mg">
+			<ul class="gnb">
+				<li class="all"><a href=""><span><img src="images/menu_icon.png" alt="전체메뉴"/></span>전체메뉴</a>
+					<!-- full menu -->
+					<div class="full_menu">
+						<div class="menu_line">
+							<h4>포장떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">10kg 잔치떡(한말)</a></li>
+								<li><a href="detail_list.html">5kg 잔치떡(반말)</a></li>
+								<li><a href="detail_list.html">1kg 잔치떡(한되)</a></li>
+								<li><a href="detail_list.html">250g 포장떡</a></li>
+								<li><a href="detail_list.html">200kg 포장떡</a></li>
+								<li><a href="detail_list.html">간식 포장떡</a></li>
+								<li><a href="detail_list.html">미니 포장떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>답례떡 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 답례떡</a></li>
+								<li><a href="detail_list.html">결혼 답례떡</a></li>
+								<li><a href="detail_list.html">돌/백일 답례떡</a></li>
+								<li><a href="detail_list.html">개업/기업 답례떡</a></li>
+								<li><a href="detail_list.html">첫출근/영전 답례떡</a></li>
+								<li><a href="detail_list.html">생일/회갑/고희 답례떡</a></li>
+								<li><a href="detail_list.html">조문 답례떡</a></li>
+								<li><a href="detail_list.html">팬덤/스타 답례떡</a></li>
+								<li><a href="detail_list.html">유치원/학교 답례떡</a></li>
+								<li><a href="detail_list.html">수상/감사 답례떡</a></li>
+								<li><a href="detail_list.html">응원/합격 답례떡</a></li>
+								<li><a href="detail_list.html">종교/세미나 답례떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>선물세트 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 선물세트</a></li>
+								<li><a href="detail_list.html">추천 선물세트</a></li>
+								<li><a href="detail_list.html">예단떡 (이바지떡)</a></li>
+								<li><a href="detail_list.html">오메기떡 선물세트</a></li>
+								<li><a href="detail_list.html">조청/식혜/약과/다식</a></li>
+							</ul>
+
+							<h4>음료/명절메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">식혜</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>떡케이크 메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">DIY 떡케이크</a></li>
+								<li><a href="detail_list.html">추천 떡케이크</a></li>
+								<li><a href="detail_list.html">기업행사 떡케이크</a></li>
+								<li><a href="detail_list.html">상차림 케이크세트</a></li>
+								<li><a href="detail_list.html">1단/2단/3단 케이크</a></li>
+							</ul>
+
+							<h4>50년 인기메뉴</h4>
+							<ul>
+								<li><a href="detail_list.html">백설기</a></li>
+								<li><a href="detail_list.html">수수팥떡</a></li>
+								<li><a href="detail_list.html">시루떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>오메기떡</h4>
+							<ul>
+								<li><a href="detail_list.html">제주오메기떡</a></li>
+								<li><a href="detail_list.html">카카오오메기떡</a></li>
+								<li><a href="detail_list.html">말차오메기떡</a></li>
+								<li><a href="detail_list.html">수리취오메기떡</a></li>
+								<li><a href="detail_list.html">씨앗오메기떡</a></li>
+								<li><a href="detail_list.html">콩고물오메기떡</a></li>
+								<li><a href="detail_list.html">대추오메기떡</a></li>
+								<li><a href="detail_list.html">호두오메기떡</a></li>
+							</ul>
+						</div>
+						<div class="menu_line">
+							<h4>BEST</h4>
+							<ul>
+								<li><a href="detail_list.html">돌떡/백일떡/수수팥떡</a></li>
+								<li><a href="detail_list.html">유치원간식/생일잔치</a></li>
+								<li><a href="detail_list.html">예단떡/이바지떡</a></li>
+								<li><a href="detail_list.html">떡선물세트</a></li>
+								<li><a href="detail_list.html">개업떡/이사떡/시루떡</a></li>
+								<li><a href="detail_list.html">식사대용/오메기떡</a></li>
+								<li><a href="detail_list.html">케이크/생일/회갑/칠순</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="first">
+					<a href="brand.html">떡담이야기</a>
+					<ul class="subMenu1">
+						<li><a href="brand.html">브랜드 이야기</a></li>
+						<li><a href="history.html">떡담 역사</a></li>
+						<li><a href="store.html">떡담 매장</a></li>
+						<li><a href="start.html">창업 이야기</a></li>
+					</ul>
+				</li>
+				<li class="diy_menu"><a href="diy.html">DIY답례떡</a></li>
+				<li>
+					<a href="sticker.html">무료스티커</a>
+					<ul class="subMenu2">
+						<li><a href="sticker.html">스티커 신청하기</a></li>
+						<li><a href="sticker_sample.html">스티커 샘플보기</a></li>
+						<li><a href="sticker_complete.html">스티커 시안확인</a></li>
+					</ul>
+				</li>
+				<li><a href="review.html">이용후기</a></li>
+				<li>
+					<a href="cs.html">고객센터</a>
+					<ul class="subMenu3">
+						
+						<li><a href="myquestion.html">1:1 문의</a></li>
+						<li><a href="store.html">매장안내</a></li>
+						<li><a href="notice_list.html">공지사항</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="search">
+				<form action="">
+					<input type="text" placeholder="기업행사케이크">
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<div class="top_img">
+		<p class="auto_mg">창업 이야기</p>
+	</div>
+	
+	<!--depth page-->
+	<div class="auto_mg">
+		<ul class="top_depth cf">
+			<li><a href="brand.html">떡담이야기</a></li>
+			<li><img src="images/depthpage.png"></li>
+			<li><a href="start.html">창업이야기</a></li>
+			<li><img src="images/depthpage.png"></li>
+			<li><a href="start_request.html">개설 상담 신청</a></li>
+		</ul>
+	</div>
+		
+	<!-- start tab button -->
+	<div class="start_tab_button auto_mg">
+
+		<button onclick="location.href='start.html'" class=" st_button">떡담 개설 절차</button>
+		<button class="st_button">개설 Q＆A</button>
+		<button onclick="location.href='start_request.html'" class="activing st_button">개설 상담 신청</button>
+	</div>
+
+
+	<section class="auto_mg">
+		<h2 class="lineTitle">개설 상담 신청</h2>
+		
+		<form class="start_request cf">
+			<div class="info_agree">
+				<h3>개인정보 취급방침 동의</h3>
+				<p>떡담만의 성공 노하우로 가맹점주님 성공창업을 위해 아낌없이 지원해 드리겠습니다.</p>	
+				<div class="cf">
+					<label for="agree_check"><p>개인정보 취급방침 동의</p></label>
+					<div class="checkbox_area">
+						<div class="check_wrap">
+							<input type="checkbox" value="" name="" id="agree_check">
+							<div class="check_btn"></div>
+						</div>
+						<label for="agree_check" class="detail_label">동의함</label>
+					</div>
+					<input type="button" value="보기" class="qna_click white_button">
+						
+				</div>			
+			</div>
+
+			<div class="info_view">
+				<p>
+					떡담은 (이하 '회사'는) 고객님의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호"에 관한 법률을 준수하고 있습니다.<br>
+					회사는 개인정보취급방침을 통하여 고객님께서 제공하시는 개인정보가 어떠한 용도와 방식으로 이 용되고 있으며, 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.<br> 회사는 개인정보취급방침을 개정하는 경우 웹사이트 공지사항(또는 개별공지)을 통하여 공지할 것 입니다.<br> 
+					ο 본 방침은 : 2015 년 02 월 10 일 부터 시행됩니다.<Br>
+					<br>
+					<strong>[수집하는 개인정보 항목]</strong><br>
+					회사는 회원가입, 상담, 서비스 신청 등등을 위해 아래와 같은 개인정보를 수집하고 있습니다.<br>
+					수집항목 : 이름 , 생년월일 , 성별 , 로그인ID , 비밀번호 , 비밀번호 질문과 답변, 자택 전화번 호 , 자택 주소 , 휴대전화번호 , 이메일 , 쿠키 , 결제기록<br>
+					개인정보 수집방법 : 홈페이지(회원가입)<br>
+					<br>
+					<strong>[개인정보의 수집 및 이용목적]</strong><br>
+					ο 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산 콘텐츠 제공 , 구매 및 요금 결제 ,<br> 
+					  물품배송 또는 청구지 등 발송 , 금융거래 본인 인증 및 금융 서비스<br> 
+					ο 회원 관리 회원제 서비스 이용에 따른 본인확인, 개인 식별, 가입 의사 확인, 연령확인, 만14세 미만 아동 개인정보<br> 
+					  수집 시 법정 대리인 동의여부 확인, 불만처리 등 민원처리, 고지사항 전달<br> 
+					ο 마케팅 및 광고에 활용 이벤트 등 광고성 정보 전달 , 접속 빈도 파악 또는 회원의 서비스 이용에 대한 통계<br>
+					<br>
+
+					<strong>[개인정보의 보유 및 이용기간]</strong><br>
+					원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.<br>
+					단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.<br> 
+					보존 항목 : 이름, 성별, 로그인ID, 비밀번호, 비밀번호 질문과 답변, 자택 전화번호, 자택 주소, 휴대전화번호, 이메일, 회사전화번호<br> 
+					보존 근거 : 회원가입약관<br> 
+					보존 기간 : 원칙적으로 회원가입 후 회원가입약관에 의한 이용계약 종료시까지이용계약이 종료할 경우 당사는 회원의 개인정보를 즉시 파기하며 제3자에게 기 제공된 정보에 대해서도 지체 없이 파기하도록 조치합니다.<br> 
+					그리고 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 아래와 같이 관계법령에서 정 한 일정한 기간 동안 회원정보를 보관합니다.<br> 
+					ο 위 보유기간에도 불구하고 계속 보유하여야 할 필요가 있을 경우에는 귀하의 동의를 받겠습니다.<br>
+					<br>
+					<strong>[개인정보의 파기절차 및 방법]</strong><br>
+					회사는 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체없이 파기합니다 . 파기절차 및 방법은 다음과 같습니다.<br> 
+					ο 파기절차 회원님이 회원가입 등을 위해 입력하신 정보는 목적이 달성된 후 별도의 DB로 옮겨져(종이의 경우 별도의 서류함)<br> 
+					  내부 방침 및 기타 관련 법령에 의한 정보보호 사유에 따라(보유 및 이용기 간 참조) 일정 기간 저장된 후 파기되어집니다.<br> 
+					  별도 DB로 옮겨진 개인정보는 법률에 의한 경우가 아니 고서는 보유되어지는 이외의 다른 목적으로 이용되지 않습니다.<br> 
+					ο 파기방법 - 전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제 합니다.<br><br>
+
+					<strong>[개인정보 제공]</strong><br>
+					회사는 이용자의 개인정보를 원칙적으로 외부에 제공하지 않습니다.<br> 다만, 아래의 경우에는 예외 로 합니다.<br> 
+					이용자들이 사전에 동의한 경우 <br>
+					법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우<br><br>
+
+					<strong>[수집한 개인정보의 위탁]</strong><br>
+					회사는 서비스 이행을 위해 아래와 같이 외부 전문업체에 위탁하여 운영하고 있습니다.<br> 
+					위탁 대상자 : KCP, LG U+ <br>
+					위탁업무 내용 : 결제처리(휴대폰,계좌이체,신용카드,가상계좌,기타결제수단등)<br><br>
+
+					<strong>[이용자 및 법정대리인의 권리와 그 행사방법]</strong><br>
+					이용자는 언제든지 등록되어 있는 자신의 개인정보를 조회하거나 수정할 수 있으며 가입해지를 요 청할 수도 있습니다.<br> 이용자들의 개인정보 조회,수정을 위해서는 '개인정보변경'(또는 '회원정보수정' 등)을 가입해지 (동의철회)를 위해서는 "회원탈퇴"를 클릭하여 본인 확인 절차를 거치신 후 직접 열람, 정정 또는 탈퇴가 가능합니다.<br> 혹은 개인정보관리책임자에게 서면, 전화 또는 이메일로 연락하시면 지체없이 조치하겠습니다. 귀하가 개인정보의 오류에 대한 정정을 요청하신 경우에는 정정을 완료하기 전까지 당해 개인정보 를 이용 또는 제공하지 않습니다.<br> 또한 잘못된 개인정보를 제3자에게 이미 제공한 경우에는 정정 처리결과를 제3자에게 지체없이 통지하여 정정이 이루어지도록 하겠습니다.<br> 회사는 이용자의 요청에 의해 해지 또는 삭제된 개인정보는 "회사가 수집하는 개인정보의 보유 및 이용기간"에 명시된 바에 따라 처리하고 그 외의 용도로 열람 또는 이용할 수 없도록 처리하고 있 습니다.<br><br>
+
+					<strong>[개인정보 자동수집 장치의 설치, 운영 및 그 거부에 관한 사항]</strong><br>
+					회사는 귀하의 정보를 수시로 저장하고 찾아내는 ‘쿠키(cookie)’ 등을 운용합니다. 쿠키란 (주) 떡파는사람들의 웹사이트를 운영하는데 이용되는 서버가 귀하의 브라우저에 보내는 아주 작은 텍 스트 파일로서 귀하의 컴퓨터 하드디스크에 저장됩니다. 회사은(는) 다음과 같은 목적을 위해 쿠 키를 사용합니다.<br> 
+					<br>
+					쿠키 등 사용 목적<br> 
+					회원과 비회원의 접속 빈도나 방문 시간 등을 분석, 이용자의 취향과 관심분야를 파악 및 자취 추 적, 각종 이벤트 참여 정도 및 방문 회수 파악 등을 통한 타겟 마케팅 및 개인 맞춤 서비스 제공 귀하는 쿠키 설치에 대한 선택권을 가지고 있습니다. 따라서, 귀하는 웹브라우저에서 옵션을 설정 함으로써 모든 쿠키를 허용하거나, 쿠키가 저장될 때마다 확인을 거치거나, 아니면 모든 쿠키의 저장을 거부할 수도 있습니다.<br>
+					<br> 
+					쿠키 설정 거부 방법<br> 
+					쿠키 설정을 거부하는 방법으로는 회원님이 사용하시는 웹 브라우저의 옵션을 선택함으로써 모든 쿠키를 허용하거나 쿠키를 저장할 때마다 확인을 거치거나, 모든 쿠키의 저장을 거부할 수 있습니 다. 설정방법 예(인터넷 익스플로어의 경우) : 웹 브라우저 상단의 도구 > 인터넷 옵션 > 개인정보 단, 귀하께서 쿠키 설치를 거부하였을 경우 서비스 제공에 어려움이 있을 수 있습니다.<br> 
+					<br> 
+					<strong>[개인정보에 관한 민원서비스]</strong><br> 
+					회사는 고객의 개인정보를 보호하고 개인정보와 관련한 불만을 처리하기 위하여 아래와 같이 관련 부서 및 개인정보관리책임자를 지정하고 있습니다.<br>  
+					고객서비스담당 부서 : 온라인마케팅팀<br>  
+					전화번호 : 1644-8222<br>  
+					이메일 : 777fortune@naver.com<br>  
+					개인정보관리책임자 성명 : 구현종실장<br>  
+					전화번호 : 1644-8222<br>  
+					이메일 : 777fortune@naver.com<br> 
+					<br><br> 
+					귀하께서는 회사의 서비스를 이용하시며 발생하는 모든 개인정보보호 관련 민원을 개인정보관리책 임자 혹은 담당부서로 신고하실 수 있습니다. 회사는 이용자들의 신고사항에 대해 신속하게 충분 한 답변을 드릴 것입니다. 기타 개인정보침해에 대한 신고나 상담이 필요하신 경우에는 아래 기관에 문의하시기 바랍니다.<br>  
+					1. 개인분쟁조정위원회 (www.1336.or.kr/ 1336)<br>  
+					2. 정보보호마크인증위원회 (www.eprivacy.or.kr/ 02-580-0533~4)<br>  
+					3. 대검찰청 인터넷범죄수사센터 (http://icic.sppo.go.kr/ 02-3480-3600)<br>  
+					4. 경찰청 사이버테러대응센터 (www.ctrc.go.kr/ 02-392-0330)
+				</p>
+			</div>
+			
+
+			<div class="start_info">
+				<h3>기본정보 입력</h3>
+				<p>개인정보를 정확하게 입력해 주세요.</p>
+				<div class="cf">
+					<label for="name"><p>이름</p></label>
+					<input type="text" id="name" placeholder="이름">
+				</div>
+				<div class="cf">
+					<label for="pw"><p>비밀번호</p></label>
+					<input type="password" id="pw" placeholder="비밀번호를 입력해 주세요">
+				</div>
+				<div class="cf">
+					<label for="delivery"><p>생년월일</p></label>
+					<input type="date" id="delivery">
+				</div>	
+				<div class="cf three_wrap">
+					<label for="telephone"><p>전화 번호</p></label>
+					<select>
+						<option value="">02</option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+					<p class="text">-</p>
+					<input type="text">
+					<p class="text">-</p>
+					<input type="text">
+				</div>
+				<div class="cf three_wrap">
+					<label for="phone"><p>휴대폰 번호</p></label>
+					<select>
+						<option value="">010</option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+					<p class="text">-</p>
+					<input type="text">
+					<p class="text">-</p>
+					<input type="text">
+				</div>							
+				<div class="cf">
+					<label for="address_input"><p>주소</p></label>
+					<input type="text" id="address_input" placeholder="주소를 검색해 주세요">
+					<input type="button" value="주소 찾기" class="white_button">
+					<input type="text" id="address_input" placeholder="상세 주소를 검색해 주세요" class="address_block">
+					<input type="text" id="address_input" placeholder="참고항목을 입력해 주세요" class="address_block">
+				</div>
+				<div class="cf three_wrap">
+					<label for="email"><p>이메일</p></label>
+					<input type="text">
+					<p class="text">@</p>
+					<input type="text">
+					<p class="text">　</p>			
+					<select>
+						<option value="">naver.com</option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="cf">
+					<label for="experience_select"><p>외식업 경영</p></label>
+					<div class="radio_wrap">
+						<input type="radio" id="experience_select" name="experience_select_radio">
+						<div class="radio_btn"></div>
+					</div>
+					<label for="experience_select" class="detail_label">외식업 경영 경험이 있음</label>
+					<div class="radio_wrap">
+						<input type="radio" id="experience_select2" name="experience_select_radio">
+						<div class="radio_btn"></div>
+					</div>
+					<label for="experience_select2" class="detail_label">외식업 경영 경험이 없음</label>
+				</div>
+			</div>
+
+			<div class="want_info">
+				<h3>개설 희망 정보 입력</h3>
+				<p>가맹주점님의 창업하고자 하는 정보를 정확하게 입력해 주세요.</p>
+				<div class="cf">
+					<label for="age"><p>연령</p></label>
+					<select id="age">
+						<option value="">선택하세요</option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="cf">
+					<label for="area"><p>희망지역</p></label>
+					<input type="text" id="area" placeholder="희망하는 지역을 입력해 주세요">
+				</div>
+				<div class="cf">
+					<label for="possible_price"><p>투자 가능 금액</p></label>
+					<select id="possible_price">
+						<option value="">선택하세요</option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="cf">
+					<label for="possible_time"><p>투자 가능 시기</p></label>
+					<select id="possible_time">
+						<option value="">선택하세요</option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="store_info">
+				<h3>점포 정보 입력</h3>
+				<p>가맹주점님의 창업하고자 하는 정보를 정확하게 입력해 주세요.</p>
+				<div class="cf">
+					<label for="have_select"><p>소유여부</p></label>
+					<div class="radio_wrap">
+						<input type="radio" id="have_select" name="have_select_radio">
+						<div class="radio_btn"></div>
+					</div>
+					<label for="have_select" class="detail_label2">있음</label>
+					<div class="radio_wrap">
+						<input type="radio" id="have_select2" name="have_select_radio">
+						<div class="radio_btn"></div>
+					</div>
+					<label for="have_select2" class="detail_label2">없음</label>
+				</div>					
+				<div class="cf">
+					<label for="address2_input"><p>주소</p></label>
+					<input type="text" id="address2_input" placeholder="주소를 검색해 주세요">
+					<input type="button" value="주소 찾기" class="white_button">
+					<input type="text" id="address2_input" placeholder="상세 주소를 검색해 주세요" class="address_block">
+					<input type="text" id="address2_input" placeholder="참고항목을 입력해 주세요" class="address_block">
+				</div>	
+				<div class="cf">
+					<label for="pyeong"><p>평형</p></label>
+					<select id="pyeong">
+						<option value="">선택하세요</option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+						<option value=""></option>
+					</select>
+				</div>	
+				<div class="cf">
+					<label for="auto"><p>자동 등록 방지</p></label>
+					<div class="auto_box">
+						<p>17890</p>
+						<div class="reset"></div>
+						<div class="speaker"></div>
+					</div>
+					<input type="text" id="auto">
+					<p class="input_detail">자동등록방지 숫자를 순서대로 입력하세요.</p>
+				</div>		
+			</div>
+
+			<div class="btn cf">
+				<input type="button" value="작성취소">
+				<input type="submit" value="작성완료">		
+			</div>
+		</form>
+	</section>
+	
+	<footer>
+		<div class="footer_banner auto_mg">
+			<ul class="footer_banner_slide">
+				<li><img src="images/ft_banner1.png" alt="농식품부 장관상 수상"></li>
+				<li><img src="images/ft_banner2.png" alt="중소기업청장 표창"></li>
+				<li><img src="images/ft_banner3.png" alt="대한민국 100대 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner4.png" alt="우수 쌀가공제품 TOP 10"></li>
+				<li><img src="images/ft_banner5.png" alt="중소기업청장 지정 우수 프랜차이즈 기업"></li>
+				<li><img src="images/ft_banner6.png" alt="쌀가공 품평회 대상"></li>
+				<li><img src="images/ft_banner7.png" alt="2013 경기도지사상 수상"></li>
+				<li><img src="images/ft_banner8.png" alt="2013 HIT 500"></li>
+				<li><img src="images/ft_banner9.png" alt="한국 프랜차이즈 산업협회 정회원사"></li>
+				<li><img src="images/ft_banner10.png" alt="한국 식품산업협회 정회원사"></li>
+				<li><img src="images/ft_banner11.png" alt="한국 외식산업협회 정회원사"></li>
+				<li><img src="images/ft_banner12.png" alt="한국 쌀가공협회 정회원사"></li>
+			</ul>
+		</div>
+		<div class="footer_bt">
+			<div class="auto_mg">
+				<ul class="cf">
+					<li><a href="" target="_blank">이용약관</a></li>
+					<li><a href="" target="_blank">개인정보 취급방침</a></li>
+					<li><a href="" target="_blank">이메일 무단 수집 거부</a></li>
+					<li><a href="" target="_blank">고객센터</a></li>
+				</ul>
+				<address>
+					<strong>(주)라이스파이</strong>
+					<p>경기도 성남시 중원구 사기막골 90번길 14&nbsp;&nbsp;|&nbsp;&nbsp;사업자 등록번호 : 2015-20-90816&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="window.open('http://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=2152090816','','resizable=yes,menubar=no,width=750,height=700')" target="_blank" style="cursor: pointer;">사업자 정보 확인하기</a>&nbsp;&nbsp;|&nbsp;&nbsp;통신판매업 신고번호 : 제2012-경기성남-1378호<br>
+					대표 임철준&nbsp;&nbsp;|&nbsp;&nbsp;개인정보관리 책임자 신희주&nbsp;&nbsp;|&nbsp;&nbsp;대표번호 1644-8222&nbsp;&nbsp;|&nbsp;&nbsp;팩스 031-749-8283&nbsp;&nbsp;|&nbsp;&nbsp;이메일 777fortune@naver.com<br>
+					<span>Copyright © 2017 라이스파이 All Right Reserved.</span></p>
+				</address>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
